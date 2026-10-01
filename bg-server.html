@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VPS Animated Section</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #060b0d;
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+    }
+
+    .vps-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 200px;
+      height: 100vh;
+      position: relative;
+    }
+
+    .monitor,
+    .server {
+      position: relative;
+      z-index: 2;
+    }
+
+    .vps-img {
+      width: 200px;
+      position: relative;
+    }
+
+    .vps-img::after {
+      content: "";
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 30px;
+      background: radial-gradient(circle, #00ff7f44 0%, transparent 80%);
+      filter: blur(10px);
+      z-index: -1;
+    }
+
+    /* Glowing SVG Graph Line centered between servers */
+    .vps-graph-line {
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%) rotate(-16deg); /* Tilt left slightly */
+      width: 500px;
+      height: 120px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .glow-line path {
+      stroke: #00ff7f;
+      stroke-width: 2;
+      fill: none;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: drawLine 3s ease-in-out infinite;
+      filter: drop-shadow(0 0 6px #00ff7f);
+    }
+
+    @keyframes drawLine {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="vps-section">
+    <!-- Monitor -->
+    <div class="monitor">
+      <img src="https://www.forexvps.net/img/homepage/how-it-works-monitor-mobile.png" class="vps-img" alt="Monitor">
+    </div>
+
+    <!-- Server 1 -->
+    <div class="server">
+      <img src="https://www.forexvps.net/img/homepage/how-it-works-vps-server-desktop.avif" alt="Server 1" class="vps-img">
+    </div>
+
+    <!-- Server 2 -->
+    <div class="server">
+      <img src="https://www.forexvps.net/img/homepage/how-it-works-broker-server-desktop.avif" alt="Server 2" class="vps-img">
+    </div>
+
+    <!-- Glowing animated graph line between servers -->
+    <div class="vps-graph-line">
+      <svg viewBox="0 0 500 120" class="glow-line">
+        <path d="M0,60 L50,80 L100,50 L150,70 L200,40 L250,60 L300,30 L350,50 L400,20 L450,40 L500,25" />
+      </svg>
+    </div>
+  </section>
+
+</body>
+</html>

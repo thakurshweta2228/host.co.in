@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hosting</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="./assets/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/js/slick-slider/slick.css">
+    <link rel="stylesheet" href="./assets/css/init.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/device.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <style>
+.blackfriday-banner{position:relative;width:100%;height:50px;overflow:hidden;z-index:100;}
+.blackfriday-banner--bg-red{background:#ec1c65;}
+.blackfriday-banner__wrapper{display:flex;align-items:center;justify-content:center;height:50px;position:relative;z-index:10;text-decoration:none;color:#fff;font-family:'Poppins',sans-serif;}
+.blackfriday-banner__sale-image-gradient{position:absolute;top:-100px;left:-700px;width:640px;height:250px;border-radius:640px;transform:rotate(-45deg);background:radial-gradient( 45.57% 45.57% at 50% 50%,rgba(252,81,133,0.6) 0%,rgba(255,234,244,0.16) 49.5%,rgba(255,255,255,0) 100% );z-index:2;animation:shimmerMove 6s linear infinite;}
+@keyframes shimmerMove{0%{left:-700px;}
+50%{left:calc(50% - 320px);}
+100%{left:100%;}
+}
+.blackfriday-banner__sale-image{background-repeat:repeat-x;height:34px;left:0;margin:7px 0;position:absolute;top:0;width:100%;z-index:103;background-image:url("https://www.hostinger.com/cdn-cgi/imagedelivery/LqiWLm-3MGbYHtFuUbcBtA/4adea288-26d4-4c77-47ec-b61b9d74c700/sharpen=0");animation:backgroundSlide 30s linear infinite;}
+@keyframes backgroundSlide{from{background-position:0 0;}
+to{background-position:-2000px 0;}
+}
+.blackfriday-banner__info{position:relative;z-index:990;display:flex;align-items:center;gap:8px;background:linear-gradient( 90deg,#8c85ff00,#ec1c65 10% 70%,#ec1c65 0,#8c85ff00 ),linear-gradient( 90deg,#8c85ff00,#ec1c65 10% 51.06%,#ec1c65 88.8%,#8c85ff00 );height:50px;padding:0 100px;}
+.blackfriday-banner__title{font-weight:600;font-size:16px;color:#fff;}
+.blackfriday-banner__countdown{background:rgba(255,255,255,0.2);border-radius:6px;padding:4px 8px;font-size:14px;}
+.blackfriday-countdown__value{font-weight:600;margin:0 2px;color:#fff;}
+.blackfriday-countdown__hint{opacity:0.8;margin-right:3px;color:#fff;}
+
+    </style>
+</head>
+
+<body>
+
+    <header class="host-header col-100 floatLft">
+        <div class="wrapper">
+            <div class="header-innerChild col-100 floatLft">
+                <div class="hosting_Logo floatLft">
+                    <img src="./assets/images/host_logo.png" alt="Green Hosting Logo">
+                </div>
+                <nav class="navigationmenu relative">
+                    <ul class="np-nav-menu menu-wrap col-100 floatLft">
+                        <!-- <li class="inlineBlk"><a href="javascript:;" class="NavItem_wrap active"></a></li> -->
+                        <li class="inlineBlk relative dropdown">
+                            <a href="javascript:;" class="NavItem_wrap np-nav-links dropbtn">WordPress
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <div class="emptyHeight col-100 floatLft"></div>
+                                <div class="dropMenu col-100 floatLft">
+                                    <div class="websuite-dropdown">
+                                        <div class="websuite-left">
+                                            <div class="websuite-left-img">
+                                                <img src="./assets/images/menuIcons/Wordpress-menuIcon.png">
+                                            </div>
+                                            <h2 class="websuite-left_title">WordPress</h2>
+                                            <p class="websuite-left_subtitle">Experience the best hosting for WordPress
+                                                delivering high speed, improved performance, and so much more.</p>
+                                        </div>
+                                        <div class="websuite-right">
+                                            <div class="websuite-rightInn">
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Wordpress.gif" alt="WordPress">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">WordPress Hosting </h4><span
+                                                            class="background_Tag">Trending</span>
+                                                        <p class="protect_para">Take your WordPress website live in a
+                                                            few minutes</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Woocommerce.gif"
+                                                        alt="Woocommerce">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Woocommerce Hosting </h4><span
+                                                            class="background_Tag">launching</span>
+                                                        <p class="protect_para">Confidently run your WooCommerce store
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropMenu_Bottom col-100 floatLft">
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Contact+Us.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt">Contact Us</a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/About+Us.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt">About Us</a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Sales.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Sales: <span
+                                                class="menuContactColor">+91 9607002421</span></a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Sales.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Sales: <span
+                                                class="menuContactColor">+91 9607002429</span></a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Support.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Support: <span
+                                                class="menuContactColor">+91 9665760700</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inlineBlk relative dropdown">
+                            <a href="javascript:;" class="NavItem_wrap np-nav-links dropbtn">Domain & Hosting
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <div class="emptyHeight col-100 floatLft"></div>
+                                <div class="dropMenu col-100 floatLft">
+                                    <div class="websuite-dropdown">
+                                        <div class="websuite-left">
+                                            <img src="./assets/images/menuIcons/domain&hosting.png">
+                                            <h2 class="websuite-left_title">Domain & Hosting</h2>
+                                            <p class="websuite-left_subtitle">Find a top domain name and take it online
+                                                with fast, secure, and flexible web hosting solutions, specially
+                                                developed for freshers and experienced webmasters alike</p>
+                                        </div>
+                                        <div class="websuite-right">
+                                            <div class="websuite-rightInn">
+                                                <h3 class="websuite-sectionTitle">Hosting</h3>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Linux.gif" alt="Linux Hosting">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Linux Hosting </h4>
+                                                        <p class="protect_para">Affordable hosting solution for new
+                                                            websites & blogs</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Windows.gif"
+                                                        alt="Windows Hosting">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Windows Hosting </h4><span
+                                                            class="background_Tag">Best Selling</span>
+                                                        <p class="protect_para">A hot favourite for ASP, ASP.NET &
+                                                            MSSQL-based apps</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Reseller.gif"
+                                                        alt="Reseller Hosting">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Reseller Hosting</h4>
+                                                        <p class="protect_para">Start your own web hosting business with
+                                                            cPanel & WHMCS</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Ecommerce.gif"
+                                                        alt="Ecommerce Hosting">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Ecommerce Hosting</h4>
+                                                        <p class="protect_para">Easy-to-use hosting platform for your
+                                                            online store</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="websuite-rightInn">
+                                                <h3 class="websuite-sectionTitle">Domain</h3>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Domain+name+search.gif"
+                                                        alt="Domain name">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Domain name search</h4>
+                                                        <p class="protect_para">Select a personal & relevant domain name
+                                                            for your business</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropMenu_Bottom col-100 floatLft">
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Contact+Us.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt">Contact Us</a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/About+Us.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt">About Us</a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Sales.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Sales: <span
+                                                class="menuContactColor">+91 9607002421</span></a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Sales.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Sales: <span
+                                                class="menuContactColor">+91 9607002429</span></a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Support.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Support: <span
+                                                class="menuContactColor">+91 9665760700</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inlineBlk relative dropdown">
+                            <a href="javascript:;" class="NavItem_wrap np-nav-links dropbtn">VPS & Dedicated
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <div class="emptyHeight col-100 floatLft"></div>
+                                <div class="dropMenu col-100 floatLft">
+                                    <div class="websuite-dropdown">
+                                        <div class="websuite-left">
+                                            <img src="./assets/images/menuIcons/Vps&Dedicated.png">
+                                            <h2 class="websuite-left_title">VPS & Dedicated</h2>
+                                            <p class="websuite-left_subtitle">All-in-one website solution with hosting,
+                                                domain, emails, and builder—ready to launch in minutes.</p>
+                                        </div>
+                                        <div class="websuite-right">
+                                            <div class="websuite-rightInn">
+                                                <h3 class="websuite-sectionTitle">VPS</h3>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/self+managed+vps.gif" alt="SSL">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Self Managed VPS </h4><span
+                                                            class="background_Tag">Top Discounted</span>
+                                                        <p class="protect_para">Total control & full access for
+                                                            experienced webmasters</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Managed+VPS.gif" alt="SSL">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Managed VPS</h4>
+                                                        <p class="protect_para">Designed for hosting without technical
+                                                            headaches</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Windows+VPS.gif" alt="SSL">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Windows VPS</h4>
+                                                        <p class="protect_para">Quickly launch Windows-driven
+                                                            applications</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Forex+VPS.gif" alt="SSL">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Forex VPS</h4>
+                                                        <p class="protect_para">Uninterrupted trading & faster execution
+                                                            speeds</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="websuite-rightInn">
+                                                <h3 class="websuite-sectionTitle">Dedicated</h3>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Dedicated+Server.gif" alt="SSL">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Dedicated Server </h4><span
+                                                            class="background_Tag">Best Priced</span>
+                                                        <p class="protect_para">For maximum control, performance &
+                                                            security</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/GPU+Dedicated.gif" alt="SSL">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">GPU Dedicated Server</h4>
+                                                        <p class="protect_para">Crucial for AI/ML, video rendering &
+                                                            online gaming</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Cloud+Hosting.gif" alt="SSL">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">Cloud Hosting</h4>
+                                                        <p class="protect_para">Enhanced stability, better performance,
+                                                            & stronger security</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropMenu_Bottom col-100 floatLft">
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Contact+Us.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt">Contact Us</a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/About+Us.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt">About Us</a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Sales.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Sales: <span
+                                                class="menuContactColor">+91 9607002421</span></a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Sales.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Sales: <span
+                                                class="menuContactColor">+91 9607002429</span></a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Support.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Support: <span
+                                                class="menuContactColor">+91 9665760700</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="inlineBlk relative dropdown">
+                            <a href="javascript:;" class="NavItem_wrap np-nav-links dropbtn">WebSuite
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <div class="emptyHeight col-100 floatLft"></div>
+                                <div class="dropMenu col-100 floatLft">
+                                    <div class="websuite-dropdown">
+                                        <div class="websuite-left">
+                                            <img src="./assets/images/menuIcons/websuit_menuImg.png">
+                                            <h2 class="websuite-left_title">Websuite</h2>
+                                            <p class="websuite-left_subtitle">Websuite, a smart website launching
+                                                toolkit, is bundled with powerful tools that helps to build your strong
+                                                online brand</p>
+                                        </div>
+                                        <div class="websuite-right">
+                                            <div class="websuite-rightInn">
+                                                <h3 class="websuite-sectionTitle">Security</h3>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/SSL.gif" alt="SSL Certificate">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">SSL Certificate </h4><span
+                                                            class="background_Tag">Best Seller</span>
+                                                        <p class="protect_para">Best priced certificate for data privacy
+                                                            & security</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="websuite-rightInn">
+                                                <h3 class="websuite-sectionTitle">BuildAI</h3>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/AI+Logo+Maker.gif"
+                                                        alt="AI Logo Maker">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">AI Logo Maker </h4><span
+                                                            class="background_Tag">launching</span>
+                                                        <p class="protect_para">Get an easy, quick & unique logo design
+                                                            in minutes</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/Ai+Domain+Name.gif"
+                                                        alt="AI Domain Name">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">AI Domain Name Generator </h4><span
+                                                            class="background_Tag">launching</span>
+                                                        <p class="protect_para">Time-saving tool that suggests catchy
+                                                            domain names</p>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="websuite-service">
+                                                    <img src="./assets/images/menuIcons/AI+Website+Builder.gif"
+                                                        alt="AI Website Builder">
+                                                    <div class="MenuTextBlock">
+                                                        <h4 class="protect_Title">AI Website Builder </h4><span
+                                                            class="background_Tag">launching</span>
+                                                        <p class="protect_para">Generate functional websites within
+                                                            minutes</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropMenu_Bottom col-100 floatLft">
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Contact+Us.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt">Contact Us</a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/About+Us.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt">About Us</a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Sales.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Sales: <span
+                                                class="menuContactColor">+91 9607002421</span></a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Sales.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Sales: <span
+                                                class="menuContactColor">+91 9607002429</span></a>
+                                    </div>
+                                    <div class="dropMenu_BottomInn">
+                                        <img src="./assets/images/menuIcons/Support.gif">
+                                        <a href="#" class="dropMenu_BottomInn_Txt Number">Support: <span
+                                                class="menuContactColor">+91 9665760700</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li class="inlineBlk"><a href="javascript:;" class="NavItem_wrap">Contact</a></li> -->
+                        <li class="inlineBlk"><a href="javascript:;" class="NavItem_wrap Blue_color"><img
+                                    src="./assets/images/phone_icon.gif"> 91 9607001170</a></li>
+
+                    </ul>
+                </nav>
+                <div class="np-auth desktop-auth AuthBut">
+                    <a href="#" class="loginBut">Login</a>
+                </div>
+                <div class="hamburger hamburger--elastic">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="dropdown-overlay"></div>
+    <div class="header-placeholder"></div>
+    <div class="np-auth mobile-auth AuthBut">
+        <a href="#" class="loginBut">Login</a>
+    </div>
+
+    <div class="blackfriday-banner blackfriday-banner--bg-red" id="promo-strip">
+        <a class="blackfriday-banner__wrapper" href="#pricing" target="_self">
+            <div class="blackfriday-banner__info blackfriday-banner__info--centered">
+            <span class="blackfriday-banner__title">Black Friday: Sale</span>
+            <div class="blackfriday-banner__countdown" id="countdown">
+                <span class="blackfriday-countdown__value" id="days">00</span><span class="blackfriday-countdown__hint">D</span>
+                <span class="blackfriday-countdown__value" id="hours">00</span><span class="blackfriday-countdown__hint">H</span>
+                <span class="blackfriday-countdown__value" id="minutes">00</span><span class="blackfriday-countdown__hint">M</span>
+                <span class="blackfriday-countdown__value" id="seconds">00</span><span class="blackfriday-countdown__hint">S</span>
+            </div>
+            </div>
+
+            <div class="blackfriday-banner__sale-image-gradient"></div>
+            <div class="blackfriday-banner__sale-image"></div>
+        </a>
+    </div>
+
+
+    <section class="blackfriday-b col-100 floatLft">
+
+        <div class="wrapper">
+            <div class="blackfridayInn col-100 floatLft">
+                <div class="blackfriday-Lft">
+                    <h1 class="blackfridayhead">Cheap Web Hosting in India</h1>
+                    <h1 class="blackfriday-title">
+                        <span class="gradient-text">Black Friday</span>
+                        <span class="dynamic-word">Web Hosting Deals</span>
+                    </h1>
+                    <p class="blackfriday-para">Host.co.in makes web hosting simple, easy, and hassle-free. Partner with
+                        us to launch your blog, portfolio, business website, or online store and soar your online
+                        journey.</p>
+                    <a href="#" class="blackfriday-But">Explore Now</a>
+                </div>
+                <div class="blackfriday-Rgt">
+                    <img src="./assets/images/black friday/black-fridaybanner.png" alt="" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="builderAI col-100 floatLft vertical_space">
+        <div class="wrapper">
+            <div class="builderAIInn col-100 floatLft">
+                <h1 class="builAI-title">Build & Host Your <img src="./assets/images/ai-builder/aibuilder-text.svg"
+                        class="buildetextInn" alt=""><br> with the Power of AI! </h1>
+                <div class="builAI-subtitlecenter col-100 floatLft">
+                    <p class="builAI-subtitle">Develop a remarkably breathtaking and powerful WordPress website in
+                        minutes using WPSquared's intelligent automation and AI-powered website builder, with no
+                        technical steps, no coding, and no headache.</p>
+                </div>
+                <div class="buldAi-image col-100 floatLft padding-side">
+                    <img src="./assets/images/ai-builder/builder-banner.webp" alt="">
+                </div>
+                <div class="AIbuilderBut col-100 floatLft">
+                    <a href="#" class="BannerBut_primary plan_Buttons">Try AI Website Builder Demo</a>
+                </div>
+                <div class="feturebarOut col-100 floatLft vertical_space">
+                    <div class="feature-bar">
+                        <div class="feature-item">99.9% Uptime</div>
+                        <div class="feature-item">24x7 Expert Support</div>
+                        <div class="feature-item">Free SSL</div>
+                        <div class="feature-item">30-Day Money-Back</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="chooseAIbuild col-100 floatLft vertical_margin">
+        <div class="wrapper ">
+            <div class="chooseAIbuildInn col-100 floatLft">
+                <h2 class="section_two_Title">Why Is It Thoughtful to Choose Us for<br> AI-WordPress Hosting?</h2>
+                <ul class="Linux_shared_benefits_wrap buildAiCenter vertical_space padding-side">
+                    <li class="Linux_shared_benefits_wrapList">
+                        <div class="Linux_shared_benefits_wrap_Content col-100 floatLft greenBox">
+                            <img src="https://www.host.co.in/assets/images/icon/free-domain.svg"
+                                alt="Free Domain, SSL &amp; Migration">
+                            <h2 class="Linux_shared_benefits_Content_head">AI-Powered Website Builder</h2>
+                            <p class="Linux_shared_benefits_Content_para">Our AI-powered website builder makes web
+                                development simple and trouble-free. Simply choose your industry, answer simple
+                                questions, and let our AI website builder design, write, and bring your website to life
+                                in minutes.</p>
+                        </div>
+                    </li>
+                    <li class="Linux_shared_benefits_wrapList">
+                        <div class="Linux_shared_benefits_wrap_Content col-100 floatLft blueBox">
+                            <img src="https://www.host.co.in/assets/images/icon/quick-Page-load.svg"
+                                alt="Quick Page Load Times">
+                            <h2 class="Linux_shared_benefits_Content_head">Optimised for WordPress Performance</h2>
+                            <p class="Linux_shared_benefits_Content_para">Enjoy 10x faster website loading with
+                                AI-WordPress hosting powered by LiteSpeed Cache, SSD storage, and a built-in CDN.</p>
+                        </div>
+                    </li>
+                    <li class="Linux_shared_benefits_wrapList">
+                        <div class="Linux_shared_benefits_wrap_Content col-100 floatLft yellowBox">
+                            <img src="https://www.host.co.in/assets/images/icon/advanced-security.svg"
+                                alt="Advanced Security">
+                            <h2 class="Linux_shared_benefits_Content_head">Automatic Security & Updates</h2>
+                            <p class="Linux_shared_benefits_Content_para">Rest assured that our WPSquared automation
+                                makes sure that your WordPress core, plugins, and themes are always updated with daily
+                                malware scans and one-click restore points.</p>
+                        </div>
+                    </li>
+                    <li class="Linux_shared_benefits_wrapList">
+                        <div class="Linux_shared_benefits_wrap_Content col-100 floatLft purpleBox">
+                            <img src="https://www.host.co.in/assets/images/icon/quick-Page-load.svg"
+                                alt="Quick Page Load Times">
+                            <h2 class="Linux_shared_benefits_Content_head">User-Friendly Control Panel</h2>
+                            <p class="Linux_shared_benefits_Content_para">Receive a simple and easy-to-use control panel
+                                with WordPress staging, backups, monitoring and other tools for website management.</p>
+                        </div>
+                    </li>
+                    <li class="Linux_shared_benefits_wrapList">
+                        <div class="Linux_shared_benefits_wrap_Content col-100 floatLft orangeBox">
+                            <img src="https://www.host.co.in/assets/images/icon/advanced-security.svg"
+                                alt="Advanced Security">
+                            <h2 class="Linux_shared_benefits_Content_head">Round-the-Clock Expert Support</h2>
+                            <p class="Linux_shared_benefits_Content_para">Our experienced and knowledgeable WordPress
+                                professionals are always ready to help you, through live chat, email, and phone.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="buildAI-plan col-100 floatLft vertical_margin">
+        <div class="wrapper">
+            <div class="buildAI-planInn col-100 floatLft">
+                <h2 class="section_two_Title">Why Is It Thoughtful to Choose Us for<br> AI-WordPress Hosting?</h2>
+                <div class="buildplan col-100 floatLft">
+                    <ul class="buildplanList padding-side vertical_space">
+                        <li class="buildplanList-wrap">
+                            <div class="buildplanListInn col-100 floatLft">
+                                <div class="buildplanListInn-Lft">
+                                    <h3 class="buildAI-CardTitle">Starter</h3>
+                                    <h3 class="buildAI-priceNew">₹149<span class="buildAI-priceSpan">/mo</span></h3>
+                                </div>
+                                <div class="buildplanListInn-Rgt">
+                                    <ul class="buildplanList-inside col-100 floatLft">
+                                        <li class="HostFeatureList_wrap">2 vCPU</li>
+                                        <li class="HostFeatureList_wrap">4 GB DDR5 RAM</li>
+                                        <li class="HostFeatureList_wrap">75 GB NVMe SSD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="buildAI-horizntal col-100 floatLft">
+                                <div class="buildAI-geyfeture">Key Features</div>
+                                <div class="buildAI-item">AI Builder</div>
+                                <div class="buildAI-item">WP Toolkit</div>
+                                <div class="buildAI-item">Auto Updates</div>
+                            </div>
+                            <div class="AIbuilderBut col-100 floatLft">
+                                <a href="#" class="BannerBut_primary buildAi col-100 floatLft">Add to Cart</a>
+                            </div>
+                        </li>
+                        <li class="buildplanList-wrap">
+                            <div class="buildplanListInn col-100 floatLft">
+                                <div class="buildplanListInn-Lft">
+                                    <h3 class="buildAI-CardTitle">Advanced</h3>
+                                    <h3 class="buildAI-priceNew">₹249<span class="buildAI-priceSpan">/mo</span></h3>
+                                </div>
+                                <div class="buildplanListInn-Rgt">
+                                    <ul class="buildplanList-inside col-100 floatLft">
+                                        <li class="HostFeatureList_wrap">2 vCPU</li>
+                                        <li class="HostFeatureList_wrap">4 GB DDR5 RAM</li>
+                                        <li class="HostFeatureList_wrap">75 GB NVMe SSD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="buildAI-horizntal col-100 floatLft">
+                                <div class="buildAI-geyfeture">Key Features</div>
+                                <div class="buildAI-item">AI Builder</div>
+                                <div class="buildAI-item">WP Toolkit</div>
+                                <div class="buildAI-item">Auto Updates</div>
+                            </div>
+                            <div class="AIbuilderBut col-100 floatLft">
+                                <a href="#" class="BannerBut_primary buildAi col-100 floatLft">Add to Cart</a>
+                            </div>
+                        </li>
+                        <li class="buildplanList-wrap">
+                            <div class="buildplanListInn col-100 floatLft">
+                                <div class="buildplanListInn-Lft">
+                                    <h3 class="buildAI-CardTitle">Starter</h3>
+                                    <h3 class="buildAI-priceNew">₹149<span class="buildAI-priceSpan">/mo</span></h3>
+                                </div>
+                                <div class="buildplanListInn-Rgt">
+                                    <ul class="buildplanList-inside col-100 floatLft">
+                                        <li class="HostFeatureList_wrap">2 vCPU</li>
+                                        <li class="HostFeatureList_wrap">4 GB DDR5 RAM</li>
+                                        <li class="HostFeatureList_wrap">75 GB NVMe SSD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="buildAI-horizntal col-100 floatLft">
+                                <div class="buildAI-geyfeture">Key Features</div>
+                                <div class="buildAI-item">AI Builder</div>
+                                <div class="buildAI-item">WP Toolkit</div>
+                                <div class="buildAI-item">Auto Updates</div>
+                            </div>
+                            <div class="AIbuilderBut col-100 floatLft">
+                                <a href="#" class="BannerBut_primary buildAi col-100 floatLft">Add to Cart</a>
+                            </div>
+                        </li>
+                        <li class="buildplanList-wrap">
+                            <div class="buildplanListInn col-100 floatLft">
+                                <div class="buildplanListInn-Lft">
+                                    <h3 class="buildAI-CardTitle">Advanced </h3>
+                                    <h3 class="buildAI-priceNew">₹249<span class="buildAI-priceSpan">/mo</span></h3>
+                                </div>
+                                <div class="buildplanListInn-Rgt">
+                                    <ul class="buildplanList-inside col-100 floatLft">
+                                        <li class="HostFeatureList_wrap">2 vCPU</li>
+                                        <li class="HostFeatureList_wrap">4 GB DDR5 RAM</li>
+                                        <li class="HostFeatureList_wrap">75 GB NVMe SSD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="buildAI-horizntal col-100 floatLft">
+                                <div class="buildAI-geyfeture">Key Features</div>
+                                <div class="buildAI-item">AI Builder</div>
+                                <div class="buildAI-item">WP Toolkit</div>
+                                <div class="buildAI-item">Auto Updates</div>
+                            </div>
+                            <div class="AIbuilderBut col-100 floatLft">
+                                <a href="#" class="BannerBut_primary buildAi col-100 floatLft">Add to Cart</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="meet-website col-100 floatLft vertical_margin">
+        <div class="meet-websiteOutbox blueBox col-100 floatLft">
+            <div class="wrapper">
+                <div class="meet-websiteinn col-100 floatLft">
+                    <h2 class="section_two_Title">Why Is It Thoughtful to Choose Us for<br> AI-WordPress Hosting?</h2>
+                    <div class="meet-websitewrap col-100 floatLft vertical_space">
+                        <div class="meet-websiteLft">
+                            <img src="./assets/images/ai-builder/meetai-builder.webp">
+                        </div>
+                        <div class="meet-websiteRgt">
+                            <h3 class="websites-txttitle">Develop Your Dream Website without a Designer,<br> a
+                                Developer, and No Delay.</h3>
+                            <h4 class="websites-subtxttitle">An AI website builder taking care of things like:</h4>
+                            <p class="websites-txt">Designs layouts that fit your business type</p>
+                            <p class="websites-txt">Writes SEO-ready content & headlines</p>
+                            <p class="websites-txt">Adds relevant images automatically</p>
+                            <p class="websites-txt">Installs WordPress and configures performance settings</p>
+                            <div class="meetBut-aibuilder col-100 floatLft">
+                                <a href="#" class="BannerBut_primary plan_Buttons">Try AI Website Builder Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="meet-website-base col-100 floatLft">
+                        <h4 class="meetWebsiteBaseTxt">One-stop solution for freelancers, small businesses, bloggers,
+                            and e-commerce owners looking to launch quickly!</h4>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="ai-builderprtect col-100 floatLft">
+        <div class="wrapper">
+            <div class="ai-protectwebOut col-100 floatLft vertical_margin">
+                <h2 class="section_two_Title">Strong Protection for Your Website</h2>
+                <div class="ai-protectOut col-100 floatLft">
+                    <ul class="ai-protectList vertical_space">
+                        <li class="ai-protectListWrap greenBox">
+                            <div class="ai-protectListInn">
+                                <h4 class="ai-protectList-txt">Daily malware scanning & removal</h4>
+                            </div>
+                        </li>
+                        <li class="ai-protectListWrap blueBox">
+                            <div class="ai-protectListInn">
+                                <h4 class="ai-protectList-txt">WAF (web application firewall)</h4>
+                            </div>
+                        </li>
+                        <li class="ai-protectListWrap yellowBox">
+                            <div class="ai-protectListInn">
+                                <h4 class="ai-protectList-txt">Get isolated accounts on shared servers</h4>
+                            </div>
+                        </li>
+                        <li class="ai-protectListWrap purpleBox">
+                            <div class="ai-protectListInn">
+                                <h4 class="ai-protectList-txt">Automatic patching & rollback</h4>
+                            </div>
+                        </li>
+                        <li class="ai-protectListWrap orangeBox">
+                            <div class="ai-protectListInn">
+                                <h4 class="ai-protectList-txt">Get isolated accounts on shared servers</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ai-builderprtect col-100 floatLft">
+        <div class="wrapper">
+            <div class="ai-advanceAI col-100 floatLft vertical_margin">
+                <h2 class="section_two_Title">Advanced Hosting Architecture</h2>
+                <div class="ai-advanceListOut col-100 floatLft">
+                    <ul class="ai-advanceList vertical_space">
+                        <li class="ai-advanceList-wrap">
+                            <div class="ai-advanceList-Inn col-100 floatLft">
+                                <img src="./assets/images/ai-builder/ai-speed.svg">
+                                <div class="ai-advanceList-txt">
+                                    <h3 class="advance-Txttitle">LiteSpeed Server</h3>
+                                    <h4 class="advance-Txtsubtitle">Extremely fast response time</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ai-advanceList-wrap">
+                            <div class="ai-advanceList-Inn col-100 floatLft">
+                                <img src="./assets/images/ai-builder/ai-ssd.svg">
+                                <div class="ai-advanceList-txt">
+                                    <h3 class="advance-Txttitle">NVMe SSD</h3>
+                                    <h4 class="advance-Txtsubtitle">Superfast data access</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ai-advanceList-wrap">
+                            <div class="ai-advanceList-Inn col-100 floatLft">
+                                <img src="./assets/images/ai-builder/ai-backup.svg">
+                                <div class="ai-advanceList-txt">
+                                    <h3 class="advance-Txttitle">Free SSL & Daily Backups</h3>
+                                    <h4 class="advance-Txtsubtitle">Always protected</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ai-advanceList-wrap">
+                            <div class="ai-advanceList-Inn col-100 floatLft">
+                                <img src="./assets/images/ai-builder/ai-cdn.svg">
+                                <div class="ai-advanceList-txt">
+                                    <h3 class="advance-Txttitle">Global CDN Integration</h3>
+                                    <h4 class="advance-Txtsubtitle">Quick content delivery across the world</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ai-advanceList-wrap">
+                            <div class="ai-advanceList-Inn col-100 floatLft">
+                                <img src="./assets/images/ai-builder/ai-optimization.svg">
+                                <div class="ai-advanceList-txt">
+                                    <h3 class="advance-Txttitle">Auto WordPress Optimisation</h3>
+                                    <h4 class="advance-Txtsubtitle">Includes updates, caching, and database cleaning 
+                                    </h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ai-advanceList-wrap">
+                            <div class="ai-advanceList-Inn col-100 floatLft">
+                                <img src="./assets/images/ai-builder/ai-monitor.svg">
+                                <div class="ai-advanceList-txt">
+                                    <h3 class="advance-Txttitle">Continuous Monitoring</h3>
+                                    <h4 class="advance-Txtsubtitle">Quick issue detection and resolution</h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ai-customerOut col-100 floatLft vertical_margin">
+        <div class="wrapper">
+            <div class="ai-customerInn col-100 floatLft">
+                <h2 class="section_two_Title">What Our Customers Have to Say</h2>
+                <div class="ai-testimonial col-100 floatLft vertical_space">
+                    <div class="ai-testimonial-Lft">
+                        <div class="aitestimonial-card purpleBox">
+                            <div class="ai-testimonial-text">
+                                <p class="ai-testimonial-para">I built my business website in 10 minutes using the AI
+                                    builder! It looked perfect — and hosting was blazing fast.</p>
+                                <h4 class="ai-testimonial-title purple">— Ravi S., Pune</h4>
+                            </div>
+                            <div class="ai-testimonial-img">
+                                <img src="./assets/images/ai-builder/ai-ravi.webp"
+                                    alt="Customer testimonial Ravi S. from Pune">
+                            </div>
+                        </div>
+                        <div class="aitestimonial-card greenBox">
+                            <div class="ai-testimonial-text">
+                                <p class="ai-testimonial-para">Launching my online store was effortless! The setup was
+                                    instant, and the performance exceeded my expectations. Truly hassle-free hosting
+                                    experience.</p>
+                                <h4 class="ai-testimonial-title green">— Arjun P., Bengaluru</h4>
+                            </div>
+                            <div class="ai-testimonial-img">
+                                <img src="./assets/images/ai-builder/ai-mitali.webp"
+                                    alt="Customer testimonial Mitali K. from Delhi">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ai-testimonial-Rgt yellowBox">
+                        <div class="aitestimonial-cardrgt ">
+                            <div class="ai-testimonial-text">
+                                <p class="ai-testimonial-para">Finally, a WordPress managed hosting that just works.
+                                    Simple and easy for newcomers as well as powerful for developers.</p>
+                                <h4 class="ai-testimonial-title yellow">— Mitali K., Delhi</h4>
+                            </div>
+                            <div class="ai-testimonial-img rgtimg-ai">
+                                <img src="./assets/images/ai-builder/ai-arjun.webp"
+                                    alt="Customer testimonial Arjun P. from Bengaluru">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="HostingComparision_Out col-100 floatLft">
+        <div class="wrapper">
+            <div class="HostingComparision_Inn ai-buildertable col-100 floatLft">
+                <div class="comparision-mainTitleBg col-100 floatLft">
+                    <h3 class="comparision-mainTitle">Comparison with Other Hosting Providers</h3>
+                </div>
+                <div class="comparison-table col-100 floatLft">
+                    <div class="comparison-header row">
+                        <div class="col col-1 comparision_title ai-tabletil">Features</div>
+                        <div class="col col-2 comparision_title ai-tabletil">Host.co.in</div>
+                        <div class="col col-3 comparision_title ai-tabletil">Bluehost</div>
+                        <div class="col col-2 comparision_title ai-tabletil">Hostinger</div>
+                        <div class="col col-3 comparision_title ai-tabletil">GoDaddy</div>
+                    </div>
+                    <div class="comparison-row row">
+                        <div class="col col-1 comparision_subtitle">AI Website Builder</div>
+                        <div class="col col-2 yes comparision_subtitle"></div>
+                        <div class="col col-3 no comparision_subtitle"></div>
+                        <div class="col col-2 no comparision_subtitle"></div>
+                        <div class="col col-3 no comparision_subtitle"></div>
+                    </div>
+                    <div class="comparison-row row">
+                        <div class="col col-1 comparision_subtitle">LiteSpeed Server</div>
+                        <div class="col col-2 yes comparision_subtitle"></div>
+                        <div class="col col-3 no comparision_subtitle"></div>
+                        <div class="col col-2 yes comparision_subtitle"></div>
+                        <div class="col col-3 no comparision_subtitle"></div>
+                    </div>
+                    <div class="comparison-row row">
+                        <div class="col col-1 comparision_subtitle">WPSquared Automation </div>
+                        <div class="col col-2 yes comparision_subtitle"></div>
+                        <div class="col col-3 no comparision_subtitle"></div>
+                        <div class="col col-2 no comparision_subtitle"></div>
+                        <div class="col col-3 no comparision_subtitle"></div>
+                    </div>
+                    <div class="comparison-row row">
+                        <div class="col col-1 comparision_subtitle">WP Auto Updates & Backups</div>
+                        <div class="col col-2 yes comparision_subtitle"></div>
+                        <div class="col col-3 yes comparision_subtitle"></div>
+                        <div class="col col-2 yes comparision_subtitle"></div>
+                        <div class="col col-3 yes comparision_subtitle"></div>
+                    </div>
+                    <div class="comparison-row row">
+                        <div class="col col-1 comparision_subtitle">Free Migration</div>
+                        <div class="col col-2 yes comparision_subtitle"></div>
+                        <div class="col col-3 no comparision_subtitle"></div>
+                        <div class="col col-2 yes comparision_subtitle"></div>
+                        <div class="col col-3 yes comparision_subtitle"></div>
+                    </div>
+                    <div class="comparison-row row">
+                        <div class="col col-1 comparision_subtitle">Price (per mo)</div>
+                        <div class="col col-2 yes comparision_subtitle aiprice">₹149</div>
+                        <div class="col col-3 no comparision_subtitle aiprice">₹299</div>
+                        <div class="col col-2 yes comparision_subtitle aiprice">₹199</div>
+                        <div class="col col-3 yes comparision_subtitle aiprice">₹299</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="AIbuilderBut col-100 floatLft">
+                <a href="#" class="BannerBut_primary plan_Buttons">Switch & Save Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ai-developOut col-100 floatLft vertical_margin space-bottom">
+        <div class="wrapper">
+            <div class="ai-developinn col-100 floatLft purpleBox">
+                <div class="ai-developlft">
+                    <h2 class="section_two_Title lfttext">Are you Ready for AI-Developed Websites?</h2>
+                    <p class="ai-developSubtitle">Start your website journey today with faster, smarter, and more
+                        affordable AI-powered hosting.</p>
+                    <div class="meetBut-aibuilder col-100 floatLft">
+                        <a href="#" class="BannerBut_primary plan_Buttons">Try AI Website Builder</a>
+                    </div>
+                </div>
+                <div class="ai-developRgt">
+                    <img src="./assets/images/ai-builder/ai-develop.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="os-planOut col-100 floatLft">
+        <div class="wrapper">
+            <div class="os-planInn col-100 floatLft">
+                <ul class="os-planList">
+                    <li class="os-planListWrap greenBox">
+                        <div class="">
+                            <h2 class="os-planTitle">CL OS Solo</h2>
+                            <p class="BuyHostTxt">1 Account</p>
+                            <h3 class="os-planPrice">₹800<span class="os-planPriceSpan">/mo</span></h3>
+                            <div class="addtoCartBut col-100 floatLft">
+                                <a href="https://portal.host.co.in/cart.php?a=add&amp;pid=87&amp;carttpl=lagom2&amp;_gl=1*vcfbxy*_gcl_au*MTU2NzI2Mjc5NS4xNzU4ODU4NzA4*_ga*NDg5MzI5OTguMTc1ODg1ODcwOQ..*_ga_TTNLCVENHB*czE3NjE2NDM2NzQkbzE1JGcxJHQxNzYxNjQzNjg1JGo0OSRsMCRoMA.."
+                                    class="BannerBut_primary plan_Buttons" tabindex="0">Add to Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="os-planListWrap yellowBox">
+                        <div class="">
+                            <h2 class="os-planTitle">CL OS Legacy</h2>
+                            <p class="BuyHostTxt">unlimited accounts</p>
+                            <h3 class="os-planPrice">₹1200<span class="os-planPriceSpan">/mo</span></h3>
+                            <div class="addtoCartBut col-100 floatLft">
+                                <a href="https://portal.host.co.in/cart.php?a=add&amp;pid=87&amp;carttpl=lagom2&amp;_gl=1*vcfbxy*_gcl_au*MTU2NzI2Mjc5NS4xNzU4ODU4NzA4*_ga*NDg5MzI5OTguMTc1ODg1ODcwOQ..*_ga_TTNLCVENHB*czE3NjE2NDM2NzQkbzE1JGcxJHQxNzYxNjQzNjg1JGo0OSRsMCRoMA.."
+                                    class="BannerBut_primary plan_Buttons" tabindex="0">Add to Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="os-planListWrap purpleBox">
+                        <div class="">
+                            <h2 class="os-planTitle">CL OS Shared Pro</h2>
+                            <p class="BuyHostTxt">unlimited accounts</p>
+                            <h3 class="os-planPrice">₹1600<span class="os-planPriceSpan">/mo</span></h3>
+                            <div class="addtoCartBut col-100 floatLft">
+                                <a href="https://portal.host.co.in/cart.php?a=add&amp;pid=87&amp;carttpl=lagom2&amp;_gl=1*vcfbxy*_gcl_au*MTU2NzI2Mjc5NS4xNzU4ODU4NzA4*_ga*NDg5MzI5OTguMTc1ODg1ODcwOQ..*_ga_TTNLCVENHB*czE3NjE2NDM2NzQkbzE1JGcxJHQxNzYxNjQzNjg1JGo0OSRsMCRoMA.."
+                                    class="BannerBut_primary plan_Buttons" tabindex="0">Add to Cart</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="Footer_Out col-100 floatLft">
+        <div class="Footer_Inn col-100 floatLft">
+            <div class="wrapper">
+                <div class="footer-container col-100 floatLft">
+                    <div class="footer-brand-mobile">
+                        <div class="mobile_img_center">
+                            <img src="./assets/images/footer_logo.png" alt="Host.co.in Logo" class="footer-logo">
+                        </div>
+
+                        <p>We offer a wide range of reliable hosting solutions tailored <br> to meet your specific
+                            needs, ensuring a seamless online <br> experience for your website visitors.</p>
+                    </div>
+                    <div class="footer-links col-100 floatLft">
+                        <div class="footer-column col-100 floatLft">
+                            <div class="footer-head">Web Hosting</div>
+                            <ul>
+                                <li><a href="#">Linux Shared Hosting</a></li>
+                                <li><a href="#">Windows Shared Hosting</a></li>
+                                <li><a href="#">WordPress Hosting</a></li>
+                                <li><a href="#">E-commerce Hosting</a></li>
+                                <li><a href="#">Linux Reseller Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column col-100 floatLft">
+                            <div class="footer-head">Web Servers</div>
+                            <ul>
+                                <li><a href="#">Self-Managed VPS Hosting</a></li>
+                                <li><a href="#">Linux VPS Hosting</a></li>
+                                <li><a href="#">Windows VPS Hosting</a></li>
+                                <li><a href="#">Dedicated Servers</a></li>
+                                <li><a href="#">GPU Dedicated Servers</a></li>
+                                <li><a href="#">Cloud Hosting</a></li>
+                                <li><a href="#">Forex VPS</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <div class="footer-head">Domains</div>
+                            <ul>
+                                <li><a href="#">Domain Name Search</a></li>
+                            </ul>
+                            <div class="footer-head gap">About Us</div>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Client Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <div class="footer-head">Security Tools</div>
+                            <ul>
+                                <li><a href="#">SSL Certificate</a></li>
+                            </ul>
+                            <div class="footer-head gap">Legal</div>
+                            <ul>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Service Level Agreement</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-bottom col-100 floatLft">
+                        <div class="footer-brand">
+                            <img src="./assets/images/footer_logo.png" alt="Host.co.in Logo" class="footer-logo">
+                            <p>We offer a wide range of reliable hosting solutions tailored <br> to meet your specific
+                                needs, ensuring a seamless online <br> experience for your website visitors.</p>
+                        </div>
+
+                        <div class="footer-social">
+                            <div class="social-icons">
+                                <span class="footer-social_head">Find Us On</span>
+                                <a href="#"><img src="./assets/images/facebook.svg" alt="Facebook"></a>
+                                <a href="#"><img src="./assets/images/x.svg" alt="X (Twitter)"></a>
+                                <a href="#"><img src="./assets/images/linkedin.svg" alt="LinkedIn"></a>
+                                <a href="#"><img src="./assets/images/instagram.svg" alt="Instagram"></a>
+                                <a href="#"><img src="./assets/images/youtube.svg" alt="YouTube"></a>
+                            </div>
+                            <div class="payment-methods">
+                                <img src="./assets/images/visa.svg" alt="Visa">
+                                <img src="./assets/images/amex.svg" alt="American Express">
+                                <img src="./assets/images/mastercard.svg" alt="Mastercard">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright col-100 floatLft">
+            <p>© 2025 host.co.in. All Rights Reserved. Proud Part of ESDS Ltd Group.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/jquery-3.6.min.js"></script>
+    <script src="./assets/js/slick-slider/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/stscript.js"></script>
+
+    <script>
+        const words = [
+            "Web Hosting Deals",
+            "Web Hosting Offers",
+            "Web Hosting Sale"
+        ];
+
+        let index = 0;
+        const wordEl = document.querySelector('.dynamic-word');
+
+        function changeWord() {
+            // fade out
+            wordEl.classList.remove('active');
+
+            // after fade-out, change text and fade in
+            setTimeout(() => {
+                index = (index + 1) % words.length;
+                wordEl.textContent = words[index];
+                wordEl.classList.add('active');
+            }, 800); // matches CSS transition duration
+        }
+
+        // start with first word visible
+        wordEl.textContent = words[0];
+        wordEl.classList.add('active');
+
+        // change every 3.5 seconds for better pacing
+        setInterval(changeWord, 2500);
+    </script>
+
+<script>
+  // Countdown logic
+  let endTimeMs = new Date("2025-10-30T20:26:10").getTime();
+  const EXTEND_BELOW_MS = 5 * 60 * 60 * 1000;
+  const EXTEND_BY_MS = 2 * 24 * 60 * 60 * 1000;
+  let extendedOnce = false;
+
+  const promoStripEl = document.getElementById('promo-strip');
+  const d = document.getElementById('days');
+  const h = document.getElementById('hours');
+  const m = document.getElementById('minutes');
+  const s = document.getElementById('seconds');
+
+  function pad(num) {
+    return String(num).padStart(2, '0');
+  }
+
+  function updateCountdown() {
+    const now = Date.now();
+    let remain = endTimeMs - now;
+
+    if (remain <= 0) {
+      d.textContent = "00";
+      h.textContent = "00";
+      m.textContent = "00";
+      s.textContent = "00";
+      return;
+    }
+
+    if (!extendedOnce && remain < EXTEND_BELOW_MS) {
+      endTimeMs += EXTEND_BY_MS;
+      extendedOnce = true;
+      promoStripEl.style.transition = "box-shadow .4s";
+      promoStripEl.style.boxShadow = "0 2px 18px rgba(0,0,0,0.6)";
+      setTimeout(() => {
+        promoStripEl.style.boxShadow = "0 2px 10px rgba(0,0,0,0.35)";
+      }, 600);
+    }
+
+    const totalSeconds = Math.floor(remain / 1000);
+    const days = Math.floor(totalSeconds / (3600 * 24));
+    const hours = Math.floor((totalSeconds % (3600 * 24)) / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+
+    d.textContent = pad(days);
+    h.textContent = pad(hours);
+    m.textContent = pad(minutes);
+    s.textContent = pad(seconds);
+  }
+
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,715 @@
+@media screen and (max-width:1920px){
+    .wrapper{max-width: 1450px;padding: 0 20px;}
+    .testimonial-slider {width: 1440px;}
+}
+@media screen and (max-width:1680px){
+    .wrapper{max-width: 1350px;}
+}
+@media screen and (max-width:1600px){
+ /* .vertical_margin {padding-top: 80px;} */
+ .new_margin{margin-top: 80px;}
+ .Linux_Shared_divider_dotImg {margin: 15px 0;}
+ .Global_ImgGlobeRgtInn{padding-top: 50px;padding-bottom: 50px;}
+ /*.Linux_shared_benefits_wrap_Content{height:335px;}*/
+}
+
+@media screen  and (max-width:1500px){
+    .wrapper{max-width: 1238px;}
+    .left-arrow {margin-right: 40px;}
+    .testimonial-slider {width: 1300px;}
+    .Error_InnWrap {top: 0;transform: translate(45%, 2%);}
+    .Error_BottomTxt {font-size: 125px;}
+    .GlobeRgt_textTitle br{display: none;}
+    .Global_ImgGlobeRgt {padding: 0 45px;}
+    .location-counter-box {top: -80px;left: -60px;}
+    .globe-to-counter-arrow {left: -22%;top: 18%;}
+
+}
+
+@media screen and (max-width:1400px){
+    .wrapper {max-width: 1180px;}
+  .left-arrow {margin-right: 30px;}
+  .testimonial-slider {width: 1200px;}
+  .vertical_margin {padding-top: 80px;}
+   .new_margin{margin-top: 50px;}
+  .hosting_service_List {margin-top: 60px;}
+  .faq_questn_List {margin-top: 20px;}
+  .window_Web_GloballyCardSubT {font-size: 18px;}
+.window_Web_GloballyCardTil {font-size: 18px;margin: 5px 0;}
+.window_Web_GloballyCard {padding: 0 25px;}
+.section_two_Title {font-size: 41px;letter-spacing: 1.3px;}
+.domain-search-contentTitle {font-size: 41px;}
+.Error_Out {padding: 3rem 0 3rem;}
+.thankyouOne_Out {padding-bottom: 184px;}
+.exciting_revards_listWrap {padding: 15px 15px;}
+.exciting_listWrap {gap: 15px;}
+.exciting_boxTxt br{display: none;}
+.exciting_revards_listWrap{max-width: 500px;}
+.exciting_revards_listWrap {max-width: 250px;width: 250px;}
+.line-container {top: 38%;}
+.exciting_revards_listWrap::before {left: -42px;}
+.terms_tab-btn {font-size: 16px;gap: 5px;}
+.priceCardList {margin-top: 40px;}
+.Exprt_contentListInn {flex-direction: column;}
+.Exprt_contentListWrap {width: 100%;}
+.featureImgTick {width: auto;}
+.service-box {padding: 30px;}
+/*.hover-content {height: 145px;}*/
+.Exprt_contentListInn {gap: 8px;}
+.footer-brand br{display: none;}
+.domainsearch {width:380px;}
+/*.Linux_shared_benefits_wrap_Content {height: 380px;}*/
+.wordpress-intensiveList {display: flex;flex-wrap: wrap;margin-top: 35px;gap: 30px;}
+.vertical_space {padding-top: 40px;}
+.wordpress-intensive-Rgt{padding-right: 50px;}
+.vps-pro-btn-td .BannerBut_primary{font-size: 15px;}
+.VPS-OS-Title br{display:none;}
+.vps-pro-col-2 table {width: 180px;}
+.PlanPriceTable {font-size: 21px;}
+.vps_strike {font-size: 16px;}
+.PlanPriceTable span {font-size: 18px;}
+.priceSaveTxtSpan {font-size: 18px;}
+.VPS_Linux_priceSaveTxt {width: 87px;height: 24px;clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);}
+.VPS_Linux_priceSaveTxt {font-size: 12px;}
+.section_two_TitleSec {gap: 30px;}
+.GpuBannerHead {font-size: 52px;}
+.GpuBanner-SubHead {font-size: 34px;}
+.GpuCommonTil {font-size: 42px;line-height: 50px;}
+.GpuDedicated-Inn {gap: 60px;}
+.GpuDedicatedList-Txt {padding: 22px;font-size: 18px;}
+.Gpu-standOut-Lft {width: calc(55% - 25px);}
+.Gpu-standOut-Rgt {width: calc(45% - 50px);}
+.gpu-header-title {font-size: 24px;}
+.AssistGpu-title {font-size: 36px;}
+.server-OptionsInn {gap: 50px;}
+.GpuTabSectionInn {gap: 30px;}
+.GpuTabBtn {font-size: 66px;line-height: 70px;margin-bottom: 10px;}
+}
+
+@media screen and (max-width:1300px){
+    .priceCardList .priceCardList_li {margin-right: 20px;}
+    .line-container {top: 37%;}
+    .banner_Lft {padding-right: 5rem;}
+    .Export_ContentTitle {padding: 25px 0 0px;}
+.secThree_Content_Lft {width: calc(50% - 30px);}
+.secThree_Content_Rgt {width: calc(50% - 30px);}
+.Global_ImgGlobeLft {width: calc(50% - 25px);}
+.Global_ImgGlobeRgt {width: calc(50% - 25px);}
+.globe-to-counter-arrow {left: -27%;top: 16%;}
+.GpuTabs {width: calc(45% - 40px);}
+.GpuTabContentWrap {width: calc(55% - 40px);}
+}
+
+@media screen and (max-width:1140px){
+.domainsearch {width: 350px;}
+.section_two_Title {font-size: 38px;letter-spacing: 1px;}
+.LftBanner_heading {font-size: 38px;letter-spacing: 1px;}
+.section_one_slider_wrap {margin-top: 35px;}
+.CardTitle {font-size: 26px;margin-bottom: 5px;}
+.priceNew {font-size: 42px;}
+.heading_Domain_Txt {font-size: 38px;letter-spacing: 1px;}
+.benefit_List {margin-top: 20px;}
+.content-div_para {padding-top: 5px;}
+.hosting_service_List {margin-top: 40px;gap: 25px;}
+.vertical_space {padding-top: 40px;}
+.ExportBut {margin-top: 20px;}
+.np-nav-menu {gap: 18px;}
+.Linux_shared_controlPannel_ListWrapInn {height: 250px;padding: 20px;}
+.window_Web_Globally-box-head {font-size: 28px;}
+.window_Web_Globally-box {padding: 30px 40px;}
+.hosting_introductory_container {gap: 15px;}
+.Error_InnWrap {top: 0;transform: translate(40%, 2%);}
+.Error_topTxt {font-size: 30px;letter-spacing: 1.4px;}
+.exciting_revards_list {gap: 55px 330px;}
+.exciting_revards_list {gap: 45px 330px;}
+.line-container {top: 36%;left: 30%;}
+.exciting_revards_list {gap: 36px 330px;}
+.term_disk_hollow_text_wrap {margin-top: 10px;}
+.terms_discription_ListWrap {margin-top: 30px;}
+.Linux_vps_planListInn {gap: 16px;margin-top: 30px;}
+.Linux_vps_planFeature {padding: 20px;}
+.HostingComparision_Out {padding: 50px 0 00px;}
+.service-box {padding: 25px;}
+.service-box img {margin-bottom: 15px;}
+/*.hover-content {height: 170px;max-height: 175px;}*/
+.secThree_Inn {padding: 30px 15px;}
+.secThree_Content {gap: 20px;}
+.Global_Img {gap: 25px;}
+.location-counter-box {top: -90px;   left: -95px;}
+.globe-to-counter-arrow {left: -40%;}
+.GlobeRgt_textTitle {margin-bottom: 20px;}
+.chnage_domainLft {padding: 35px;display: flex;align-items: center;}
+.chnage_domainRgt {padding: 20px 0px;}
+.faq_questn_Txt_Para {padding-bottom: 18px;margin-bottom: 18px;}
+.Get-start-img {display: flex;align-items: center;}
+.Get-start-contentTitle {font-size: 32px;}
+.Get-start-contentTitle span {font-size: 24px;letter-spacing: 1px;}
+.Linux_shared_benefits_wrap_Content {padding: 20px 20px;}
+.easyWebsite-titleOut{padding: 20px 20px;margin-bottom: 20px;}
+.easyWebsite-title {font-size: 26px;text-align: center;letter-spacing: 1px;}
+.service_GivenInn_Lft {padding: 10px;width: calc(35% - 10px);}
+.service_GivenInn_Rgt {padding: 20px;padding-left: 40px;width: calc(65% - 10px);}
+.GetStartedTxt {margin-top: 15px;}
+.easyWebsite_handle_RgtTxt {width: calc(50% - 10px);}
+.easyWebsite_handle_LftImg {width: calc(50% - 10px);}
+.Linux_shared_controlPannel_ListOut {margin-top: 20px;}
+.hosting-contentTitle {font-size: 32px;letter-spacing:normal;margin-bottom: 22px;}
+.wordpress_verTitle {font-size: 32px;margin-bottom: 22px;}
+.wordpress-intensiveInn {gap: 25px;flex-direction: column;}
+.wordpress-intensive-Lft {width: 100%;display:flex;justify-content:center;}
+.wordpress-intensive-Lft img{width:auto;}
+.wordpress-intensive-Rgt{width: 100%;padding-right: 20px;}
+.wordpress-intensiveTitle {text-align:center;}
+.wordpress-intensiveTitle br{display:none;}
+.wordpress-intensiveTitleBlue {text-align:center;}
+.wordpress-intensivePara{text-align:center;}
+.IncludedPlan {gap: 25px;}
+.Linux_shared_benefits_wrap {gap: 25px;}
+/*.window_shared_benefits_wrap_Content {height: 365px;}*/
+.Linux_shared_controlPannel_ListWrap {width: calc(50% - 15px);}
+.Linux_shared_controlPannel_ListInn {gap: 25px;}
+/*.window_shared_benefits_wrap_Content {height: 300px;}*/
+.BlueLine_stripeTxt {font-size: 26px;line-height: 32px;width: 70%;}
+.VPS_priceCardListInn {gap: 25px;}
+.VPS_Linux_priceSaveTxt {width: 75px;padding: 5px 5px;font-size: 12px;}
+.priceSaveTxtSpan {font-size: 15px;}
+.vps_Nametitle {font-size: 26px;}
+.vps_price_Oldtitle {font-size: 22px;}
+.vps_price_Newtitle {font-size: 28px;}
+.comparison-table {padding: 30px 40px 40px;}
+.vps-pro-col-2:hover {transform: none; }
+.VPS-choiceOSInn {gap: 25px;}
+.VPS-choiceOS-ImgList {gap: 15px;}
+.VPS-choiceOSInn{padding:25px;}
+.GpuBannerHead {font-size: 46px;}
+.GpuBanner-SubHead {font-size: 30px;}
+.GpuCommonTil {font-size: 38px;line-height: 43px;}
+.GpuBut-wrap {display: flex;justify-content: center;align-items: center;gap: 30px;}
+.GpuDedicated-Lft {width: calc(50% - 20px);}
+.GpuDedicated-Rgt {width: calc(50% - 20px);}
+.GpuDedicated-Inn {gap: 40px;}
+.GpuDedicatedList-Txt {padding: 18px;font-size: 16px;}
+.AssistGpu-title {font-size: 32px;}
+.Gpu-Primary {font-size: 16px;}
+.Gpu-secondary {font-size: 16px;}
+.AssistGpu-But-wrap {gap: 30px;}
+.GpuCommonTil br{display: none;}
+}
+@media screen and (max-width:992px){
+.domain-heading img {width: 240px;}
+.domain-search-content h2 {font-size: 38px;}
+.domainsearch {width: 300px;}
+/* .search-btn {font-size: 16px;padding: 8px 20px;} */
+.domainsearch {padding: 8px;} 
+.BannerBut_primary {padding: 8px 15px;font-size: 16px;}
+.section_two_Title {font-size: 34px;letter-spacing: 0px;}
+.Domain-container {padding: 20px;}
+.hosting_service_Wrap {padding: 0px 10px;}
+.service-box:hover {transform: none;box-shadow: none;background: none;border: 1px solid #ddd;}
+.hosting_service_List{padding: 0 20px;gap: 0px;}
+ .viewLink{display: none;}
+.view-all{display: none;}
+.Linux_vps_planListWrap {width: calc(50% - 15px);}
+.Linux_vps_planFeature {height: 200px;}
+
+}
+
+@media screen and (max-width:800px){
+  .np-nav-menu{position:fixed;background:#fff;box-shadow:rgba(99,99,99,0.2) 0px 2px 8px 0px;height:100vh;right:0;top:0;width:250px;margin-right: -280px;transition: .5s;flex-direction: column;align-items: flex-start;padding: 1rem;padding-top: 5rem;gap: 2rem;z-index: 99;}
+  .menu-show{margin-right:0;box-shadow:4px 2px 15px 1px #b9adad;transition: .5s;}
+  .dropdown-content{position:relative;opacity:1;visibility:visible;width: 100%;float: left;left: 0;top: 0;box-shadow: none;display: none;transform: translate(0%, 0%);}
+  .emptyHeight{display: none;}
+  .dropMenu{background:none;box-shadow:none}
+  .dropdown-content > a{border: none; padding-left: 0;}
+  .hamburger{display: inline-block;transition: .5s;}    
+  .desktop-auth {display: none;}  
+  .mobile-auth {display: block;width: 100%;text-align: left;}
+  .menu-show .mobile-auth {display: block;}
+  .mobile-auth input {width: 90%;padding: 5px;border: 1px solid #ccc;border-radius: 5px;} 
+  .mobile-auth button {position: absolute;right: 20px;background: none;border: none;font-size: 18px;}
+  .dropdown-content{position:relative;opacity:1;visibility:visible;width: 100%;float: left;left: 0;top: 0;box-shadow: none;display: none;transform: translate(0%, 0%);}
+  .emptyHeight{display: none;}
+  .dropMenu{background:none;box-shadow:none}
+  .dropdown-content > a{border: none; padding-left: 0;}
+    /* error page */
+  .Error_BottomTxt {font-size: 100px;margin: 25% 0 2%;}
+  .faq-toggle {display: inline-block;float: right;font-size: 24px;font-weight: bold;color: var(--primary-color);margin-left: 10px;cursor: pointer;line-height: 10px;position: absolute;right: 0px;top: 5px;}
+  .faq_questn_Txt_Para {display: none;}
+  .faq_questn_Txt_title {font-size: 16px;margin-right: 10px;position: relative;}
+.faq_questn_card img{width: 30px;}
+.faq_questn_card { gap: 12px;}
+.Linux_shared_controlPannel_ListWrapInn {padding: 15px;}
+.Linux_shared_benefits_Content_head {padding: 15px 0 8px;}
+.section_two_Title.linux br{display: none;}
+/* .Linux_shared_speedRgt_Para{margin-top: 12px;} */
+.banner_Lft {padding-right: 10px;}
+.LftBanner_heading br{display: none;}
+/* .window_share_premium_plan_out {flex-direction: column;}
+.window_share_premium_plan_txt {width: 100%;}
+.window_share_premium_plan-contImg {width: calc(30% - 10px);}
+.window_share_premium_plan-cont {padding: 20px 30px;} */
+.Linux_shared_benefits_wrap {flex-direction: column;}
+.Linux_shared_benefits_wrapList {width: 100%;}
+.window_Web_Globally-boxArrow{display: none;}
+.window_Web_GloballyCard {padding: 0 5px;}
+.window_Web_Globally-box {width: auto;}
+.Linux_shared_controlPannel_ListWrapInn {height:auto;}
+/* .window_host_migrateOut {margin-top: 60px;} */
+.wordpress_wordpressOut{display: none;}
+.domain-search-contentTitle {font-size: 34px;}
+.hosting_introductory_container {gap: 25px;flex-direction: column;}
+.hosting_introductoryImg {width:100%;}
+/* .search-btn.displayNone{display: none;} */
+.hosting_introductoryImg img {height: 361px;width: auto;}
+.Error_Out {padding: 9rem 0 4rem;}
+.Error_InnWrap {transform: translate(18%, -16%);}
+.Error_BottomTxt {font-size: 100px;margin: 33% 0 2%;}
+.exciting_revards_list {gap: 70px 130px;}
+.exciting_revards_Out {padding: 25px 15px;}
+.exciting_revards_listWrap::before {top: 25%;left: -16%;font-size: 125px;}
+.line-container {display: none;}
+.what_next_block {padding: 0 0px;}
+.what_next_Title {padding: 15px 0 7px;}
+.termsAndCon_Out {padding: 130px 0 50px;}
+.term_disk_text_wrap {margin-top: 10px;}
+.term_disk_text_Inn {line-height: 24px;}
+.websuite-left {display: none;}
+.websuite-right {width: 100%;flex-direction: column;padding: 5px;gap: 5px;}
+.background_Tag {display: none;}
+.protect_para{display: none;}
+.websuite-service img {display: none;}
+.websuite-service {margin-bottom: 12px;}
+.dropMenu_Bottom{display: none;}
+.protect_Title {font-weight: 500;}
+.dataCenter_tab-btn {gap: 5px;padding: 10px 15px;font-size: 16px;}
+.vertical_margin {padding-top: 60px;}
+.secThree_Content {flex-direction: column;}
+.secThree_Content_Rgt {width:100%;display: flex;justify-content: center;}
+.secThree_Content_Lft {width:100%;}
+.Global_Img {flex-direction: column;padding: 40px 20px;}
+.Global_ImgGlobeLft {width: 100%;display: flex;justify-content: center;}
+.Global_ImgGlobeRgt {width: 100%;}
+.Global_ImgGlobeLft img {width: auto;}
+.location-counter-box {top: -130px;left: -20px;}
+.globe-to-counter-arrow {left: 12%;top: -50%;}
+.Domain-container {flex-direction: column;gap: 20px;}
+.heading_Domain.global_host {width: auto;}
+.benefits-list {width: 100%;}
+.change_domain-search-contain_Out {flex-direction: column;gap: 25px;}
+.chnage_domainLft {width: 100%;display: flex;justify-content: center;}
+.chnage_domainRgt {width: 100%;}
+.domain-search-box {justify-content: center;}
+.secThree_Content_Rgt img {width: auto;}
+.Get_start_footerInn {gap: 25px;flex-direction: column;}
+.Get-start-content {width: 100%;}
+.Get-start-img {width: 100%;}
+.getStartAbs {display: none;}
+.Get-start-img {display: flex;justify-content: center;}
+.Get_start_footer {margin: 30px 0;}
+.websuite-rightInn {width: 100%;}
+.websuite-service {gap: 5px;padding: 2px 5px;}
+.websuite-sectionTitle {padding-left: 0px;margin: 10px 0;}
+.websuite-service:hover {background: none;}
+/*.Linux_shared_benefits_wrap_Content {height:auto;}*/
+.easyWebsite_handle {flex-direction: column;}
+.easyWebsite_handle_LftImg {width: 100%;}
+.easyWebsite_handle_LftImg {width: 100%;}
+.easyWebsite_handle_RgtTxt {width: 100%;margin-top: 20px;}
+.easyWebsite_handle_LftImg img {width:auto;}
+.Linux_shared_controlPannel_ListOut {flex-direction: column;}
+.Linux_shared_controlPannel_ListWrap {width: 100%;}
+.service_GivenInn {flex-direction: column;}
+.service_GivenInn_Lft {width: 100%;margin-top: 20px;}
+.service_GivenInn_Rgt {width: 100%;margin-top: 20px;}
+.domain-search-content {width:100%;}
+.IncludedPlan {flex-direction: column;margin-top: 35px;}
+.IncludedPlan-Inn {width: 100%;}
+.Export_Content-changeTil {font-weight: 600;font-size: 32px;text-align: center;margin-bottom: 15px;letter-spacing:normal;}
+.sideByside{justify-content: center;}
+.Export_ContentSubTitle {text-align: center;}
+.datacenter-image{width:50%;}
+.datacenter-info {width:50%;}
+.datacenter-content-ListInn-wrap {gap: 25px;}
+.datacenter-info {padding: 25px;}
+.dc-featuresList {margin-bottom: 10px;padding-bottom: 10px;font-size: 17px;}
+.VPS-accordion-sectionInn {gap: 50px;flex-direction: column-reverse;}
+.accordion-title {font-size: 22px;}
+.accordion-right{display:flex;justify-content:center;width:100%;}
+.accordion-left{width:100%;}
+/*.window_shared_benefits_wrap_Content {height: 220px;}*/
+.GpuDedicated-Inn {flex-direction: column;}
+.GpuDedicated-Lft {width: 100%;display: flex;justify-content: center;}
+.GpuDedicated-Rgt{width: 100%;}
+.GpuDedicated-Lft img {width: auto;}
+.Gpu-standOut-Lft {width: 100%;}
+.Gpu-standOut-Rgt{width: 100%;display: none;}
+.Gpu-standOut-wrap {flex-direction: column;}
+.standOuttitle{text-align: center;}
+.standOutSubtitle{text-align: center;}
+.Gpu-standOut-Lft-Wrap li {margin-top: 30px;}
+.GpuAssistInn {padding: 35px 45px;}
+.faq_questn_card.GpuFaq::before {width: 22px;height: 22px;}
+.faq_questn_card {margin: 15px 0;}
+.AssistGpu-title {font-size: 24px;} 
+.table-header {font-size: 22px;padding: 20px;}
+.comparison-table th,.comparison-table td {font-size: 14px;padding: 14px 10px;}
+.comparison-table td:first-child {font-size: 14px;}
+.comparison-table thead tr th {font-size: 20px;}
+.GpuTabBtn {font-size: 45px;line-height: 65px;margin-bottom: 0;}
+.domaintab-btn {padding: 8px 16px;font-size: 16px;}
+.domaintab-buttons {margin-bottom: 25px;}
+.result-messageOut-wrap {margin-top: 30px;}
+.result-messageTitle {font-size: 18px;padding: 10px;text-align: center;}
+.result-messagePara {padding: 15px;font-size: 16px;padding: 10px;}
+.domain-list {margin: 40px auto;}
+.searched-title {margin: 0;font-size: 18px;}
+.Domain-NewPrice {font-size: 20px;}
+.footer-note {font-size: 18px;}
+.tldList li {font-size: 18px;}
+}
+
+@media screen and (max-width:740px){
+    .Error_topTxt {font-size: 24px;line-height: 28px;}
+    .Error_topTxtBlue {font-size: 24px;line-height: 28px;}
+    .Error_BottomTxt {font-size: 80px;margin: 25% 0 2%;}
+    .wordpress_host_migratePara br{display:none;}
+
+}
+@media screen and (max-width:550px){
+   .banner_Inn_desktop{display: none;}
+   .banner_Inn_mobile{display: block;}
+   .banner_Rgt {width: 100%;}
+   .BannerBut_Out{display: flex;justify-content: center;margin-top: 30px;}
+   .rating_wrap_main {display: flex;justify-content: center;align-items: center;}
+    .rating_Wrap:not(:last-child)::after {display: none;}
+    .rating_Wrap {position: relative;padding-right: 0px;margin-right: 0px;}
+    .rating_wrap_main img{padding-right: 15px;}
+.rating_List.slick-slider button.slick-prev {background: url(/assets/images/arrow_review_left.png) no-repeat center;width: 30px;left: 50px;top: 18px;}
+.rating_List.slick-slider button.slick-next {background: url(/assets/images/arrow_review_right.png) no-repeat center;width: 30px;right: 50px;top: 18px;}
+.section_one_List_Out {padding: 10px 10px;gap: 10px;}
+.one_list_title {font-size: 20px;}
+.one_list_subtitle {font-size: 14px;}
+.section_one_List_Out::after {display: none;}
+.flip-card-back::after {display: none;}
+.section_two_Title {font-size: 30px;}
+.section_two_SubTitle {padding: 20px 20px;}
+/* .section_two_Title br{display: none;} */
+.secThree_Content {flex-direction: column;margin-top: 0px;gap: 20px;}
+.secThree_Content_Rgt {width: 100%;}
+.secThree_Content_Lft {width: 100%;}
+.section_two_TitleSec img{display: none;}
+.section_two_SubTitle {margin-top: 15px;margin-left: 0%;}
+.priceCardList {margin-top: 20px;}
+.Exprt_contentListInn {flex-direction: column;gap: 10px;}
+.Exprt_contentListWrap {width: 100%;}
+.clientBuzzInn {flex-direction: column;}
+.client-slider {margin-top: 20px;}
+.view-all{display: none;}
+.Domain-container {flex-direction: column;background-color: var(--blue-color);}
+.heading_Domain {max-width: 100%;}
+.heading_Domain .section_two_Title{color: var(--white-color);}
+.content-div_heading {color: var(--white-color);}
+.content-div_para {color: var(--white-color);}
+.CheckIcon{display: none;}
+.CheckIconwhite{display: block;}
+.benefit_List {flex-direction: column;}
+.content-div_heading {text-align: center;}
+.content-div_para {text-align: center;}
+.Search_Domain{display: none;}
+.service-box:hover {transform: none;}
+.testimonial-wrapper {flex-direction: column-reverse;margin-top: 20px;}
+.testimonial-slider{width: 435px;}
+.left-arrow {display: block;gap: 20px;margin-right: 0px;margin-top: 15px;}
+.left-arrow .custom-next{padding-right: 10px;}
+.left-arrow .slick-arrow{padding-left: 10px;}
+.footer_firstSec{display: none;}
+.footer-bottom {flex-direction: column;}
+.footer-brand{width: 100%;max-width: 100%;}
+.footer-social{margin-top: 30px;}
+.social-icons {justify-content: center;}
+.footer-brand-mobile{display: block;}
+.footer-brand{display: none;}
+.mobile_img_center{display: flex;justify-content: center;}
+.footer-brand-mobile p{text-align: center;margin-bottom: 20px;color: #dbdbdb;}
+.footer-brand-mobile p br{display: none;}
+.footer-links {padding-bottom: 0px;margin-bottom: 0px;}
+.brand-List{display: none;}
+.flip-card-inner {height: 100px;}
+.secThree_Out {background: none;background-color:white ;padding-bottom: 0px;}
+.chatNowBut{display: none;}
+/*.BannerBut_secondary{display: none;}*/
+.BannerBut_primary.first {margin-right: 0px;}
+.BannerBut_primary{width: 100%;text-align: center;}
+.global_Hosting{display: none;}
+.LftBanner_heading {font-size: 30px;letter-spacing: 0px;text-align: center;}
+.LftBanner_Subheading {text-align: center;}
+.priceCardList .priceCardList_li:hover{transform: none;border: 1px solid #E3E3E3;box-shadow: none;}
+.Export_ContentTitleInn {font-size: 28px;letter-spacing: 0;text-align: center;}
+.Export_ContentSubTitle{text-align: center;}
+.hosting_service_List {margin-top: 30px;}
+.faq_questn_card {margin: 20px 0;}
+.cheapHost{display: flex;justify-content: center;}
+.faq_questn_card img {width: 24px;}
+.faq_questn_Txt_Para {font-size: 14px;line-height: 18px;margin-top: 10px;padding-bottom: 10px;margin-bottom: 0px;}
+.copyright p {font-size: 14px;}
+.footer-column {margin-bottom: 20px;}
+.testimonial-card {margin-right: 0px;}
+.Linux_shared_benefits_wrap{flex-direction: column;gap: 20px;margin-top: 15px;}
+.Linux_shared_benefits_wrapList {width:100%;}
+.Linux_shared_controlPannel_ListInn {flex-direction: column;gap: 20px;}
+.Linux_shared_controlPannel_ListWrap {width: 100%;}
+/* .Linux_shared_sliderFrame {flex-direction: column;} */
+/* .Linux_shared_sliderLeft {width: 100%;} */
+/* .Linux_shared_speedLine{display: none;} */
+/* .Linux_shared_sliderRight {width:100%;} */
+/* .Linux_slider_imagesInnImg img {width: 40%;} */
+.section_two_Title br{display: none;}
+.host-header {padding: 10px 0;}
+.host-header.sticky {padding: 10px 0;}
+.Linux_Shared_divider_dotImg{display: none;}
+.Linux_shared_control_pannelOut{background: none;}
+/* .Linux_slider_content .slick-dots{display: block !important;} */
+.footer-head.gap {margin-top: 22px;}
+.footer-column .footer-head {margin-bottom: 10px;}
+.social-icons {gap: 7px;}
+.window_Web_GloballyInn {flex-direction: column;}
+.window_Web_Globally-slider {margin-top: 25px;}
+/* .window_host_migrateInn {flex-direction: column;}
+.window_host_migrateLft {width:100%;}
+.window_host_migrateRgt {width:100%;} */
+.section_two_Title.left {text-align: center;}
+.windowHost_standOut_registerTxt {font-size: 26px;letter-spacing: 0;}
+/* .window_host_migrateLft img {width: 45%;}
+.window_host_migrate_Para {text-align: center;} */
+/* .window_share_premium_plan-contImg {width: 100%;display: flex;justify-content: flex-start;} */
+.BannerBut_primary.remove{display: none;}
+/* .window_host_migrateScriptTil {text-align: center;} */
+.windowHost_standOut_register {background-image: none;}
+.hosting_introductoryImg{display: none;}
+.domain-search-content{padding: 0 10px;}
+.hosting_introductory_subhead {font-size: 18px;letter-spacing: 0;}
+.domain-search-contentTitle {font-size: 30px;letter-spacing: 0;}
+.domain-search-contentTitle br{display: none;}
+.Error_InnWrap {transform: translate(9%, -12%);}
+.Error_Out {padding: 6rem 0 6rem;}
+.Error_topTxt br{display: none;}
+.Error_InnWrap {transform: translate(0%, -12%);}
+.Error_BottomTxt {margin: 30% 0 2%;}
+.Error_topTxt{letter-spacing: 0;}
+.thankyouOne_title {font-size: 36px;letter-spacing: 1px;}
+.thankyouOne_subTitle {font-size: 28px;letter-spacing: 1px;margin-top: 10px;}
+.thankyouOne_Para br{display: none;}
+.thankyouOne_Para{margin-top: 10px;}
+.thankyouOne_Out {padding-bottom: 50px;}
+.what_next_blockInn {width:100%;height: 230px;}
+.what_next_block {flex-direction: column;}
+.what_next_blockInn {width: 100%;height: 180px;padding: 20px;}
+.exciting_revards_list {gap: 25px;}
+.exciting_revards_listWrap {max-width: 100%;}
+.exciting_listWrap {flex-direction: column;}
+.exciting_revards_list li:nth-child(3) {grid-column: 1;grid-row: none;}
+.exciting_revards_listWrap {max-width: 400px;width: 350px;}
+.exciting_revards_list li:nth-child(2) {grid-column: auto;grid-row: 2;}
+.exciting_revards_listWrap::before {top: 33%;left: -7%;font-size: 100px;}
+.exciting_revards_list {margin: 30px 0;}
+.exciting_revards_subtitle {font-size: 18px;letter-spacing: 0px;}
+.exciting_revards_list {padding: 0 15px;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.exciting_revards_listWrap::before {left: -5%;}
+.thankMiddle_but {margin: 10px 0;}
+.tab-scroll-wrapper {overflow-x: auto;-webkit-overflow-scrolling: touch;position: relative;border-bottom: 2px solid #ccc;}
+.tab-scroll-wrapper::after {content: '';position: absolute;top: 0;right: 0;height: 100%;width: 30px;background: linear-gradient(to left, white, transparent); /* change white as needed */
+  pointer-events: none;z-index: 1;}
+.tab-buttons {display: flex;min-width: max-content;gap: 10px;padding: 15px 0;}
+.terms_tab-btn {padding: 10px 15px;}
+.terms_tab-content {margin: 20px 0;}
+.terms_discription_head {font-size: 26px;}
+.term_disk_text_Inn {line-height: 22px;}
+.Linux_vps_planFeatureTitle {font-size: 20px;padding: 5px 0;}
+.hosting_introductory.selfVps {display: none;}
+.premium_window_share.desktop{display: none;}
+.premium_window_share.mobile{display:block;padding-top:60px;}
+.VPS_addtoCartBut {padding: 10px 25px;}
+.vps_Nametitle {font-size: 26px;}
+.vps_price_Oldtitle {font-size: 24px;}
+.vps_price_Newtitle {font-size: 26px;}
+.VPS_Linux_priceSaveTxt.dedicated_margin {top: -110px;}
+.comparision_title {font-size: 18px;}
+.col {padding: 10px 10px;}
+.dedicated_box_featureList {flex-direction: column;align-items: flex-start;gap:25px;}
+.datacenter-content-ListInn-wrap {flex-direction: column;}
+.datacenter-tabs-scroll {overflow-x: auto;-webkit-overflow-scrolling: touch;}
+.datacenter-tabsInn {flex-wrap: nowrap;width: max-content;}
+.dataCenter_tab-btn {flex: 0 0 auto;white-space: nowrap;}
+.datacenter-tabs-scroll::-webkit-scrollbar {height: 4px;}
+.datacenter-tabs-scroll::-webkit-scrollbar-track {background: #f1f1f1;border-radius: 3px;}
+.datacenter-tabs-scroll::-webkit-scrollbar-thumb {background: #999;border-radius: 3px;}
+.datacenter-tabs-scroll::-webkit-scrollbar-thumb:hover {background: #555;}
+.datacenter-info {padding: 15px;width:100%;}
+.dc-featuresList {margin-bottom: 10px;padding-bottom: 10px;}
+.Global_Img{padding-top: 35px;}
+.Get-start-contentTitle {font-size: 26px;}
+.Get-start-contentTitle span {font-size: 17px;letter-spacing: 0px;line-height: 6px;}
+.Linux_shared_benefits_Content_head {font-size: 18px;}
+.easyWebsite-title {font-size: 22px;}
+.service_GivenInn_Rgt {padding-left: 20px;}
+.serviceGiven-points-List {width: 100%;}
+.wordpress-intensiveList {flex-direction: column;}
+.wordpress-intensiveListWrap {width:100%;}
+.IncludedPlanDiv {padding-top: 30px;}
+.priceCardList .priceCardList_li {margin-right: 15px;}
+.Export_Content-changeTil {font-size: 26px;margin-bottom: 9px;line-height:30px;}
+.BlueLine_stripeInn {flex-direction: column;}
+.BlueLine_stripeTxt {width: 100%;}
+.comparison-table {padding: 15px;font-size:16px;}
+.comparision_title {font-size: 16px;}
+.datacenter-image {width: 100%;}
+.wordpress-intensive-Rgt{padding-right: 0px;}
+.vps-pro-col-1 {max-width: 190px;}
+.vps-pro-col-1 td {font-size: 16px;height: 70px;}
+.vps-pro-content td {padding: 0 10px;font-size: 16px;}
+.vps-pro-col-2 table {width: 140px;}
+.wordpress_verTitle br{display:none;}
+.wordpress_verTitle {font-size: 26px;margin-bottom: 17px;}
+.windowAccorionWrap {padding: 30px;}
+.vps-pro-content td {height: 70px;}
+.VPS-choiceOSInn {flex-direction:column;padding:20px 10px;}
+.VPS-choiceOSInn-Lft {width: 100%;}
+.VPS-choiceOSInn-Rgt {width: 100%;}
+/*.service-box {height: auto;}*/
+.VPS-OS-Title {font-size: 26px;text-align:center;}
+.VPS-OS-Para {font-size: 14px;text-align:center;}
+.compareClip {left: 5px;}
+.domain-search-box {flex-direction: column;padding: 0 15px;}
+.domainsearch {width: 100%;}
+.domain-search-box {flex-direction: column;padding: 0 15px;}
+.domainsearch {width: 100%;}
+.testimonial_name {font-size: 20px;}
+.GpuBannerHead {font-size: 34px;line-height: 40px;}
+.GpuBanner-SubHead {font-size: 22px;line-height: 28px;}
+.GpuBannerPara {font-size: 14px;padding: 20px 20px;line-height: 20px;text-align: center;}
+.GpuCommonTil {font-size: 32px;line-height: 38px;}
+.standOuttitle {font-size: 20px;}
+.standOutSubtitle {font-size: 14px;margin-top: 8px;}
+.server-OptionsInn{flex-direction: column-reverse;gap: 25px;}
+.gpu-accordion{width: 100%;}
+.gpu-accordionImg{width: 100%;}
+.GpuAssistInn {padding: 20px 25px;}
+.AssistGpu-title {font-size: 20px;}
+.comparison-table {min-width: 600px;}
+.comparison-table th,.comparison-table td {font-size: 12px;padding: 12px 8px;}
+.comparison-table td:first-child {font-size: 13px;}
+.GpuTabs {width: calc(50% - 10px);}
+.GpuTabContentWrap {width: calc(50% - 10px);}
+.GpuTabBtn {font-size: 32px;line-height: 50px;}
+.GpuTab_SubTitle {font-size: 14px;line-height: 19px;}
+.GpuTab_Title {font-size: 22px;margin: 5px 0 5px;}
+.Gpu-Primary span {font-size: 16px;padding: 8px 18px;}
+.tldList {gap: 30px;}
+.tldList li:not(:last-child)::after {right: -15px;}
+.textarea-wrapper { width: 100%;}
+.domainsearch-btn {padding: 6px 12px;font-size: 16px;}
+.domain-searchBtn {padding: 6px 12px;font-size: 16px;}
+.domain-searchField input {padding: 12px 120px 12px 16px;}
+.domain-list{width: 100%;}
+.searched-title {width: 300px;}
+.result-messagePara {font-size: 15px;}
+}
+@media screen and (max-width:414px){
+.BannerBut_Out{margin-top: 20px;}
+.rating_List.slick-slider button.slick-prev {display: none !important;}
+.rating_List.slick-slider button.slick-next {display: none !important;}
+.rating_wrap_main img {padding-right: 5px;}
+.section_one_slider_wrap li {margin: 0 5px;}
+.wrapper{padding: 0 10px;} 
+.CardTitle {font-size: 22px;}
+.priceCardList .priceCardList_li {padding: 15px;}
+.priceSaveTxt {left: -14px;}
+.priceOld {font-size: 22px;}
+.priceNew {font-size: 34px;}
+.section_two_SubTitle {font-size: 14px;}
+.Export_ContentSubTitle{font-size: 14px;}
+.faq_questn_List {margin-top: 20px;}
+.testimonial-slider {width: 380px;}
+.testimonial-section {padding: 0px 0px 0px 1px;}
+/* .window_share_premium_plan-cont {padding: 10px 15px;} */
+/* .window_share_premium_plan-cont {flex-direction: column;gap: 15px;} */
+.windowHost_standOut_registerTxt {font-size: 24px;}
+/* .window_share_premium_plan_img{display: none;} */
+/* .window_host_migrateOut {margin-top: 35px;}
+.window_host_migrateScript_wrap {padding: 5px 10px;} */
+.Error_BottomTxt {margin: 37% 0 0%;}
+.Error_Out {padding: 7rem 0 7rem;}
+.Error_InnWrap {transform: translate(0%, -28%);}
+.Error_topTxt {font-size: 22px;}
+.exciting_boxTxt {text-align: center;}
+.priceCardList_RgtSide {padding-left: 16px;}
+.HostFeatureList .HostFeatureList_wrap {padding-left: 25px;}
+.col {padding: 8px 2px;font-size: 14px;}
+.priceCardList .priceCardList_li {margin-right: 15px;}
+/* .vertical_margin {padding-top: 50px;} */
+.priceCardList .priceCardList_li {padding: 0px;}
+.priceCardList_wrap {padding: 15px;}
+.client-box-head {font-size: 24px;letter-spacing: 1px;}
+.hosting-contentTitle {font-size: 26px;}
+.InnvestingListBox-title {font-size: 17px;}
+.wordpress_verTitle {font-size: 24px;}
+.IncludedPlan-Inn {padding: 30px;}
+.sideByside {gap: 15px;flex-direction: column;}
+.BannerBut_primary {padding: 8px;font-size:15px;}
+/*.window_shared_benefits_wrap_Content {height: 290px;}*/
+.secThree_Inn {padding: 10px 10px;}
+.vertical_space {padding-top: 15px;}
+.faq_questn_Txt_title {font-size: 14px;font-weight:500;}
+.get-startedBut {flex-direction: column;text-align: center;}
+.search-btn {font-size: 15px;}
+.dedicated_box_featureInn {font-size: 17px;}
+.dedicated_box_featureList {gap: 15px;}
+.windowAccorionWrap {padding: 20px 10px;}
+.accordion-title {font-size: 18px;}
+.accordion-contentPara {font-size: 15px;line-height: 22px;}
+.accordion-item {padding: 15px 0;}
+.VPS-choiceOS-ImgListWrap {width: calc(50% - 15px);}
+.GpuBannerHead {font-size: 28px;line-height: 34px;}
+.GpuBanner-SubHead {font-size: 18px;line-height: 22px;}
+.GpuCommonTil {font-size: 26px;line-height: 34px;}
+.GpuDedicatedList-Txt {padding: 10px;font-size: 14px;}
+.gpu-header-title {font-size: 20px;}
+.gpu-content-para {font-size: 14px;margin-top: 16px;padding-right: 50px;}
+.GpuAssist-Lft{display: none;}
+.GpuAssist-Rgt {width: 100%;}
+.GpuAssistInn {padding: 15px;}
+.GpuTabBtn {font-size: 28px;line-height: 44px;}
+.GpuTabSectionInn {gap: 15px;}
+.searched-title {width: 200px;font-size: 16px;}
+.Domain-oldPrice {font-size: 14px;width: 70px;}
+.Domain-NewPrice {font-size: 18px;}
+.domain-list a {width: 100px;padding: 6px 8px;font-size: 13px;}
+.footer-note {font-size: 16px;}
+.footer-note a {font-size: 16px;}
+}
+
+@media screen and (max-width:400px){
+.VPS_Linux_priceSaveTxt.dedicated_margin {top: -110px;}
+.Get-start-content {padding: 30px 15px;}
+.Get-start-contentTitle {font-size: 22px;}
+.Gpu-Primary span {font-size: 16px;padding: 10px 12px;}
+.domaintab-btn {padding: 4px 8px;font-size: 14px;}
+.result-messagePara {font-size: 13px;}
+.domain-list li {padding: 14px 10px;}
+}
+@media screen and (max-width:380px){
+.thankyouOne_title {font-size: 32px;letter-spacing: 1px;}
+.testimonial-slider {width: 340px;}
+.thankyouOne_subTitle {font-size: 24px;letter-spacing: 0.5px;}
+.thankyouOne_Out {padding-bottom: 24px;}
+.what_next_block {margin: 15px 0 40px;}
+.what_next_blockInn {height: 185px;padding: 15px;}
+.exciting_revards_listWrap {width: 280px;}
+.term_disk_text_Inn{font-size: 14px;}
+.linuxVps_plan_mob{padding: 0 15px;}
+.vps-pro-col-1 {max-width: 150px;}
+.GpuCommonTil {font-size: 24px;line-height: 30px;}
+.GpuTabBtn {font-size: 25px;line-height: 40px;}
+}
+
+
