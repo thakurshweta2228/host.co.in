@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+/* variables */
+:root{--ttl_clr:#020205;--sub_ttl_clr:#020205;--sub_ttl_clr2:#020205;--azure_clr:#146EF5;--gray_clr:#3F3F46;--sky_azure_clr:#99CCFF;--link_clr:#4169E1;--offer_bg:#20F0CB;--sky_light:#E5F5FF;--sky_light2:#F7F7FF;--azure_light:#E6F5FF;--pale-azure:#CCE6FF;--pale_azure2:#F3FCFF;--green_light:#D1FBE0;--grayish:#f8f8ff;--blue_light:#C4F1FB;--lavender_light:#E7F1FF;--border-light:#D4D4D8;--border_r40:40px;--border_r20:20px;--bs-gutter-x:20px;--bs-gutter-y:15px;--main_ttl_fz:32px;--price_fz:50px;--heading_fz:28px;--sub_headinglg_fz:18px;--sub_heading_fz:16px;--ttl_fz:20px;--sub_ttl_fz:16px;--head_three:25px;--head_three_lg:30px;
+/* Spacings paddings*/
+--p_25:25px;--pt_120:120px;--pb_120:120px;--pt_90:90px;--pb_90:90px;--pt_60:60px;--pb_60:60px;--pt_45:45px;--pb_45:45px;--pt_30:30px;--pb_30:30px;--pr_30:30px;--pl_30:30px;--pt_25:25px;--pb_25:25px;--pt_22:22px;--pb_22:22px;--pr_22:22px;--pl_22:22px;--pt_16:16px;--pb_16:16px;--pr_16:16px;--pl_16:16px;--pt_10:10px;--pb_10:10px;--pr_10:10px;--pl_10:10px;--pt_6:6px;--pb_6:6px;--pr_6:6px;--pl_6:6px;--mt_30:30px;--mb_30:30px;
+/* Spacings Margins*/
+--fw-normal:400;--fw-medium:500;--fw-semi-bold:600;--fw-bold:700;--fw-extra-bold:800;
+}
+@media(max-width:1180px){
+:root{--sub_ttl_fz:14px;
+/* Spacings paddings*/
+--p_25:18px;--pt_90:60px;--pb_90:60px;--pt_60:40px;--pb_60:40px;--pt_30:25px;--pb_30:25px;--pr_30:25px;--pl_30:25px;--mt_30:25px;--mb_30:25px
+/* Spacings Margins*/
+    }
+}
+@media(max-width:950px){
+:root{--sub_heading_fz:16px;--ttl_fz:16px;--head_three:20px;--head_three_lg:26px;--sub_headinglg_fz:16px;
+/* Spacings paddings*/
+--pt_90:45px;--pb_90:45px;--pt_60:30px;--pb_60:30px;--pt_30:20px;--pb_30:20px;--pr_30:20px;--pl_30:20px;--pt_22:18px;--pb_22:18px;--pt_25:20px;--pb_25:20px;--pr_22:18px;--pl_22:18px;--pt_16:10px;--pb_16:10px;--pr_16:10px;--pl_16:10px;--pt_10:6px;--pb_10:6px;--pr_10:6px;--pl_10:6px;--mt_30:20px;--mb_30:20px
+/* Spacings Margins*/
+}
+}
+@media(max-width:768px){
+:root{--head_three_lg:18px;
+--border_r40: 24px;
+/* Spacings paddings*/
+--p_25:13px;--pt_90:35px;--pb_90:35px;--pt_60:25px;--pb_60:25px;--pt_45:25px;--pb_45:25px;
+/* Spacings Margins*/}
+}
+/* =--=-=-=-=-Minmun Width-=-=-=-=-=-=-= */
+@media (min-width: 768px) {
+        :root{--main_ttl_fz:34px;--heading_fz:30px;--price_fz:40px;}
+    }
+@media (min-width: 1025px) {
+        :root{--main_ttl_fz:36px;--heading_fz:36px;--price_fz:48px;}
+    }
+@media (min-width: 1200px) {
+        :root{--main_ttl_fz:36px;--heading_fz:40px;}
+    }
+     @media (min-width: 1370px) {
+        :root{--main_ttl_fz:40px;}
+    }
+     /* @media (min-width: 1436px) {
+        :root{--main_ttl_fz:50px;}
+    } */
+    /*Main*/
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'DM Sans', sans-serif;}body{font-size:15px;font-weight:var(--fw-normal);color:var(--sub_ttl_clr);font-family: 'DM Sans', sans-serif;line-height:1.4}a{display:inline-block;text-decoration:none}li{list-style:none}
+/* Breakpoints for Container Width */
+.mw-container{margin:0 auto;padding:0 14px}@media(min-width:576px){.mw-container{max-width:540px}}@media(min-width:768px){.mw-container{max-width:720px}}@media(min-width:992px){.mw-container{max-width:960px}}@media (min-width:1200px){.mw-container{max-width:1140px}}@media(min-width:1400px){.mw-container{max-width:1240px}}
+ .mw-row{display:flex;flex-wrap:wrap;margin-right:calc(-1 * var(--bs-gutter-x) * .5);margin-left:calc(-1 * var(--bs-gutter-x) * .5)}
+.mw-row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5)}
+/* Small Screens (â‰¥576px) */
+@media(min-width:500px){.mw-col-sm-1{flex:0 0 auto;width:8.33333333%}.mw-col-sm-2{flex:0 0 auto;width:16.66666667%}.mw-col-sm-3{flex:0 0 auto;width:25%}.mw-col-sm-4{flex:0 0 auto;width:33.33333333%}.mw-col-sm-5{flex:0 0 auto;width:41.66666667%}.mw-col-sm-6{flex:0 0 auto;width:50%}.mw-col-sm-7{flex:0 0 auto;width:58.33333333%}.mw-col-sm-8{flex:0 0 auto;width:66.66666667%}.mw-col-sm-9{flex:0 0 auto;width:75%}.mw-col-sm-10{flex:0 0 auto;width:83.33333333%}.mw-col-sm-11{flex:0 0 auto;width:91.66666667%}.mw-col-sm-12{flex:0 0 auto;width:100%}}
+/* Medium Screens (â‰¥768px) */
+@media(min-width:768px){.mw-col-md-1{flex:0 0 auto;width:8.33333333%}.mw-col-md-2{flex:0 0 auto;width:16.66666667%}.mw-col-md-3{flex:0 0 auto;width:25%}.mw-col-md-4{flex:0 0 auto;width:33.33333333%}.mw-col-md-5{flex:0 0 auto;width:41.66666667%}.mw-col-md-6{flex:0 0 auto;width:50%}.mw-col-md-7{flex:0 0 auto;width:58.33333333%}.mw-col-md-8{flex:0 0 auto;width:66.66666667%}.mw-col-md-9{flex:0 0 auto;width:75%}.mw-col-md-10{flex:0 0 auto;width:83.33333333%}.mw-col-md-11{flex:0 0 auto;width:91.66666667%}.mw-col-md-12{flex:0 0 auto;width:100%}}
+/* Large Screens (â‰¥992px) */
+@media(min-width:992px){.mw-col-lg-1{flex:0 0 auto;width:8.33333333%}.mw-col-lg-2{flex:0 0 auto;width:16.66666667%}.mw-col-lg-3{flex:0 0 auto;width:25%}.mw-col-lg-4{flex:0 0 auto;width:33.33333333%}.mw-col-lg-5{flex:0 0 auto;width:41.66666667%}.mw-col-lg-6{flex:0 0 auto;width:50%}.mw-col-lg-7{flex:0 0 auto;width:58.33333333%}.mw-col-lg-8{flex:0 0 auto;width:66.66666667%}.mw-col-lg-9{flex:0 0 auto;width:75%}.mw-col-lg-10{flex:0 0 auto;width:83.33333333%}.mw-col-lg-11{flex:0 0 auto;width:91.66666667%}.mw-col-lg-12{flex:0 0 auto;width:100%}}
+/* Extra Large Screens (â‰¥1200px) */
+@media(min-width:1200px){.mw-col-xl-1{flex:0 0 auto;width:8.33333333%}.mw-col-xl-2{flex:0 0 auto;width:16.66666667%}.mw-col-xl-3{flex:0 0 auto;width:25%}.mw-col-xl-4{flex:0 0 auto;width:33.33333333%}.mw-col-xl-5{flex:0 0 auto;width:41.66666667%}.mw-col-xl-6{flex:0 0 auto;width:50%}.mw-col-xl-7{flex:0 0 auto;width:58.33333333%}.mw-col-xl-8{flex:0 0 auto;width:66.66666667%}.mw-col-xl-9{flex:0 0 auto;width:75%}.mw-col-xl-10{flex:0 0 auto;width:83.33333333%}.mw-col-xl-11{flex:0 0 auto;width:91.66666667%}.mw-col-xl-12{flex:0 0 auto;width:100%}}.bg-azure{background:var(--azure_clr)!important}.bg-sky-light{background:var(--sky_light)!important}.bg-sky-light2{background:var(--sky_light2)!important}.bg-azure{background:var(--azure_clr)!important}.bg-azure-light{background:var(--azure_light)!important}.bg-grayish{background:var(--grayish)}.bg-greem-light{background:var(--green_light)!important}.bg-blue-light{background:var(--blue_light)!important}.bg-pale-azure{background:var(--pale-azure)!important}.bg-pale-azure2{background:var(--pale_azure2)!important}.bg-lavender-light{background:var(--lavender_light)!important}.aclr{color:var(--azure_clr)}.aclr:hover{text-decoration:underline}.aclr2{color:#fff;border-bottom:1px solid #fff}.aclr2:hover{color:#b2b0e9;border-color:#b2b0e9}.mw-border-r40{border-radius:var(--border_r40)}.mw-border-r20{border-radius:var(--border_r20)}.p-0{padding:0!important}.img-fluid{max-width:100%;height:auto}.d-flex{display:flex}.flex-1{flex:1}.flex-wrap{flex-wrap:wrap}.mw-inline-block{display:inline-block}.mw-inline{display:inline}.mw-h2{line-height:1.3;font-size:var(--heading_fz);font-weight:var(--fw-semi-bold);margin:0;color:var(--ttl_clr)}.mw-p-lg{color:var(--sub_ttl_clr);font-size:var(--sub_headinglg_fz);margin:0;padding-top:15px;line-height: 1.6;}.mw-p{color:var(--sub_ttl_clr);font-size:var(--sub_heading_fz);margin:0;padding-top:15px;line-height: 1.6;}.mw_sub_clr{color:var(--sub_ttl_clr2)}.mw-h4{font-weight:var(--fw-semi-bold);font-size:var(--ttl_fz);color:var(--ttl_clr);margin:0}.mw-h4-p{color:var(--sub_ttl_clr);font-size:14px;margin:0}.mw-h3{font-weight:var(--fw-semi-bold);font-size:var(--head_three);color:var(--ttl_clr);margin:0}.mw-h3-lg{font-weight:var(--fw-extra-bold);font-size:var(--head_three_lg);color:var(--ttl_clr);margin:0}.mw-h3-p{color:var(--sub_ttl_clr);font-size:16px;margin:0}.p-25{padding:var(--p_25)}.pt-120{padding-top:var(--pt_120)}.pt-90{padding-top:var(--pt_90)}.pt-60{padding-top:var(--pt_60)}.pt-45{padding-top:var(--pt_45)}.pt-30{padding-top:var(--pt_30)}.pt-25{padding-top:var(--pt_25)}.pt-22{padding-top:var(--pt_22)}.pt-16{padding-top:var(--pt_16)}.pt-10{padding-top:var(--pt_10)}.pt-6{padding-top:var(--pt_6)}.pb-120{padding-bottom:var(--pb_120)}.pb-90{padding-bottom:var(--pb_90)}.pb-60{padding-bottom:var(--pb_60)}.pb-45{padding-bottom:var(--pb_45)}.pb-30{padding-bottom:var(--pb_30)}.pb-25{padding-bottom:var(--pb_25)}.pb-22{padding-bottom:var(--pb_22)}.pb-16{padding-bottom:var(--pb_16)}.pb-10{padding-bottom:var(--pb_10)}.pb-6{padding-bottom:var(--pb_6)}.pr-30{padding-right:var(--pr_30)}.pr-22{padding-right:var(--pr_22)}.pr-16{padding-right:var(--pr_16)}.pr-10{padding-right:var(--pr_10)}.pr-6{padding-right:var(--pr_6)}.pl-30{padding-left:var(--pl_30)}.pl-22{padding-left:var(--pl_22)}.pl-16{padding-left:var(--pl_16)}.pl-10{padding-left:var(--pl_10)}.pl-6{padding-left:var(--pl_6)}.ml0{margin-left:0!important}.mr0{margin-right:0!important}.m0{margin:0!important}.mt-30{margin-top:var(--mt_30)}.mb-30{margin-bottom:var(--mb_30)}.jump-to-plans{cursor:pointer}.sections-space{padding:45px 0}.title-center{text-align:center;margin:0 auto}.title-right{text-align:right}.title-left{text-align:left}.fff{color:#fff!important}.mw-justify-center{justify-content:center}.mw-align-center{align-items:center}.position-relative{position:relative}.mw-btn{cursor:pointer;font-size:16px;border-radius:10px;display:inline-block;padding:12px 38px 12px;background:var(--azure_clr);color:#fff;transition:all .3s ease-in-out;text-align:center;letter-spacing:.6px;font-weight:600;position:relative}.mw-btn:before{content:'';position:absolute;right:36px;top:50%;background:url(/assets/img/mw/right.svg) center center no-repeat;background-size:contain;width:8px;height:12px;transform:translateY(-50%);opacity:0;visibility:hidden}.mw-btn:hover{background:#026ad3;padding-right:54px}.mw-btn-white{background:#fff;color:var(--main_ttl_clr)}.mw-btn-white:hover{background:#fff}.mw-btn-white:hover:before{filter:brightness(.2)}.mw-btn-gray{background:#f6f6f6;color:#101323}.mw-btn-gray:hover{color:#fff}.mw-btn:hover:before{visibility:visible;opacity:1;transition:all .8s ease-in-out}.mw-btn-h:hover{background:#026ad3;color:#fff;border-color:transparent}.mw-btn2{cursor:pointer;font-size:18px;border-radius:10px;display:inline-block;padding:17px 32px;transition:all .3s ease-in-out;background:var(--sky_light);text-align:center;color:var(--azure_clr)}.mw-link-hover{color:var(--azure_clr);font-weight:var(--fw-bold);transition:all .3s ease-in-out;display:inline-block;position:relative}.mw-link-hover:before{content:"";position:absolute;width:100%;height:1px;border-radius:5px;background-color:var(--azure_clr);bottom:-2px;left:0;transform-origin:right;transform:scaleX(0);transition:transform .3s ease-in-out}.mw-link-hover:hover:before{transform-origin:left;transform:scaleX(1)}.mx-950{max-width:950px}.mw-btn-h2{transition:all .3s ease-in-out}.mw-btn-h2:hover{transform:scale(1.03)}.mw-icon-btn{display:inline-block;background:#fff;border-radius:10px;color:var(--azure_clr);font-size:16px;padding:17px 24px 15px 25px;cursor:pointer}.mw-icon-btn span{vertical-align:middle;display:inline-block;padding-right:8px;position:relative;top:1px}.mw-wt-bg{background:unset;border:1px solid;border-color:#bccbe7;font-size:16px}@media(max-width:991px){.pb-lg-30{padding-bottom:30px!important}.pt-lg-30{padding-top:30px!important}.mw-lg-order-2{order:2}.mw-lg-order-1{order:1}}@media(max-width:768px){.mw-btn{font-size:14px;padding:14px 22px 14px}.mw-h2{line-height:1.25}.mw-order-2{order:2}.mw-order-1{order:1}.pt-md-24{padding-top:24px!important}.pb-md-24{padding-bottom:24px!important}.px-md-6{padding-right:6px!important;padding-left:6px!important}.mw-btn-wrapr{margin:20px 0 10px}.mw-btn:hover{padding-right:42px}.mw-btn:before{right:24px}.mw-p{padding-top:12px}.sections-space{padding:25px 0}}.mw-inherit{font:inherit;}
+/* mobile and desk content  */
+.mw_desk_hide_txt, .mw_desk_hide_txt_block{display:none!important;}@media(max-width:600px){.mw_desk_hide_txt{display:inline-block!important;}.mw_desk_hide_txt_block{display:block!important;}.mw_mob_hide_txt{display:none!important}.ho_migration_list2{display:block!important;}}
+/* lets talk button */
+.popupbtn img{position: fixed;bottom:5px;z-index: 1000;right:5px;}.popupbtn_img{width: 140px;}.popupbtn_mobimg{display:none;width:69px;height:69px;}@media(max-width:800px){.popupbtn_img{display:none;}.popupbtn_mobimg{display:block;}}.show_contact_popup{cursor: pointer;}
+
+
+        .mw_grade_box1{background:linear-gradient(0deg,#fff,#fff),radial-gradient(43.79% 80.62% at 0 2.65%,#edf4ff 0,#fff 100%);border:1px solid #e7ebf1;border-radius:30px;overflow:hidden;padding-left:52px}.mw_grade_img_box{height:100%;padding:0;overflow:hidden;display:flex;justify-content:end}.mw_grade_box2{padding:0 24px 0 0 !important}.mw_grade_box2 .mw_grade_img_box{justify-content:start}.mw_grade_img_box img{object-fit:cover;display:block}.mw_grade_label{font-weight:400;font-size:14px;color:#848484;display:inline-block;padding:6px 17px;background:#f9f9f9;border-radius:38px}.mw_grade_content{max-width:484px}.mw_grade_h3{font-size:30px}.mw_grade_box{padding-bottom:10px}.mw_grade_title{position:sticky;top:100px}.mw_grade_box1{position:sticky;top:215px;z-index:1;transition:all .3s ease;margin-bottom:26px}.mw_grade_box1:first-child{z-index:1}.mw_grade_box1:nth-child(2){z-index:2}.mw_grade_box1:nth-child(3){z-index:3}.mw_grade_box1:nth-child(4){z-index:4}.mw_grade_box1:nth-child(5){z-index:5}@media(max-height:800px){.mw_grade_title{position:unset;top:unset}.mw_grade_box1{top:102px}}@media(max-width:1400px){.mw_grade_img_box img{object-fit:unset}}@media(max-width:1200px){.mw_grade_box1{top:100px}.mw_grade_title{position:unset;top:unset}.mw_grade_h3{font-size:26px}.mw_grade_box1{padding-left:24px}}@media(max-width:991px){.mw_grade_box1{position:static}.mw_grade_box{padding:0 10px}.mw_grade_box1,.mw_grade_box2{padding:30px 20px !important;margin-bottom:20px}.mw_grade_box1 .mw-col-lg-6:first-child{order:2}.mw_grade_box2 .mw-col-lg-6:last-child{order:2}.mw_grade_img_box {padding-bottom:20px !important}}
+
+        @media (min-width: 1370px) {
+    :root {
+        --main_ttl_fz: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        --main_ttl_fz: 36px;
+        --heading_fz: 40px;
+    }
+}
+@media (min-width: 1025px) {
+    :root {
+        --main_ttl_fz: 36px;
+        --heading_fz: 36px;
+        --price_fz: 48px;
+    }
+}
+@media (min-width: 768px) {
+    :root {
+        --main_ttl_fz: 34px;
+        --heading_fz: 30px;
+        --price_fz: 40px;
+    }
+}
+    </style>
+</head>
+<body>
+    <section class="pt-45 pb-10">
+    <div class="mw-container">
+        <div class="mw_grade_box">
+            <div class="title-center pb-45 mwv2_mobile_left mw_grade_title">
+            <div class="mw-h2">Everything you need to build and run your website</div>
+            <p class="mw-p">From hosting and domains to business email and AI tools — all in one place.</p>
+        </div>
+            <div class="mw_grade_box1 mw-row mw-align-center">
+                <div class="mw-col-lg-6">
+                <div class="mw_grade_content">
+                    <div class="mw_grade_label">Cloud Hosting</div>
+                <h3 class="mw-h3 pt-16 mw_grade_h3">High-performance cloud hosting</h3>
+                <p class="mw-p pb-30">Feature-rich cloud hosting with top-tier server specs and high uptime for consistent performance.</p>
+                <a href="/hosting/cloud-hosting/" class="mw-btn">View Plans and Pricing</a>
+                </div>
+                </div>
+                <div class="mw-col-lg-6 p-0 mw_grade_img_box">
+                    <img class="img-fluid" src="https://www.milesweb.in/assets/img/home/optimized-cloud.avif" loading="lazy" alt="High-performance cloud hosting | MilesWeb India" title="High-performance cloud hosting | MilesWeb India" width="558" height="472">
+                </div>
+            </div>
+            <div class="mw_grade_box1 mw_grade_box2 mw-row mw-align-center">
+                <div class="mw-col-lg-6 p-0 mw_grade_img_box">
+                    <img class="img-fluid" src="https://www.milesweb.in/assets/img/home/professional-emails.avif" loading="lazy" alt="Business Email | MilesWeb India" title="Business Email | MilesWeb India" width="558" height="472">
+                </div>
+                <div class="mw-col-lg-6">
+                <div class="mw_grade_content">
+                    <div class="mw_grade_label">Business Email</div>
+                <h3 class="mw-h3 pt-16 mw_grade_h3">Professional email for your business</h3>
+                <p class="mw-p pb-30">Get secure, professional email accounts with your own domain — no website hosting required.</p>
+                <a href="/business-email" class="mw-btn">Get Started</a>
+                </div>
+                </div>
+            </div>
+            <div class="mw_grade_box1 mw-row mw-align-center">
+                <div class="mw-col-lg-6">
+                <div class="mw_grade_content">
+                    <div class="mw_grade_label">Website Builder</div>
+                <h3 class="mw-h3 pt-16 mw_grade_h3">Build a professional website in minutes.</h3>
+                <p class="mw-p pb-30">Our AI website builder creates your website in minutes — perfect for launching fast on MilesWeb hosting.</p>
+                <a href="/ai-website-builder" class="mw-btn">Create Your Website</a>
+                </div>
+                </div>
+                <div class="mw-col-lg-6 mw_grade_img_box pt-22 pb-22">
+                    <img class="img-fluid" src="https://www.milesweb.in/assets/img/home/ai-website-builder.avif" loading="lazy" alt="Website Builder | MilesWeb India" title="Website Builder | MilesWeb India" width="557" height="472">
+                </div>
+            </div>
+            <div class="mw_grade_box1 mw_grade_box2 mw-row mw-align-center">
+                <div class="mw-col-lg-6 p-0 mw_grade_img_box">
+                    <img class="img-fluid" src="https://www.milesweb.in/assets/img/home/ai-domain-generator.avif" loading="lazy" alt="A dream domain for a strong web presence | MilesWeb India" title="A dream domain for a strong web presence | MilesWeb India" width="557" height="472">
+                </div>
+                <div class="mw-col-lg-6">
+                <div class="mw_grade_content">
+                    <div class="mw_grade_label">Domain Name Generator</div>
+                <h3 class="mw-h3 pt-16 mw_grade_h3">Your ideal domain starts here</h3>
+                <p class="mw-p pb-30">Find the perfect domain name in seconds with our AI-powered domain generator.</p>
+                <a href="/domains/" class="mw-btn">Get Your Domain</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</section>
+</body>
+</html>

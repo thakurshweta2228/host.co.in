@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Never Overload Section</title>
+  <style>
+    body{margin:0;font-family:Arial,sans-serif;background:#0a0a0a;color:#fff;}
+.section{padding:60px 20px;text-align:center;}
+.heading{font-size:32px;font-weight:bold;}
+.subheading{font-size:16px;max-width:700px;margin:20px auto 50px;color:#ccc;}
+.vps-container{display:flex;justify-content:center;gap:150px;flex-wrap:wrap;}
+.vps-box{position:relative;width:320px;display:flex;flex-direction:column;align-items:center;}
+.vps-img{width:100%;height:auto;}
+.vps-title{font-size:20px;font-weight:bold;margin-top:10px;}
+.text-green{color:#4de450;}
+.text-red{color:#b4292a;}
+.load-label{position:absolute;top:30%;font-size:15px;font-weight:bold;}
+.left-load{right:-45px;}
+.right-load{left:-45px;top: 5%;}
+/* Green load bar with animated strip */
+ .load-bar{position:absolute;bottom:14%;right:0;width:10px;height:50%;background:#3CBB3F;}
+.orange-strip{position:absolute;top:30%;right:0;width:10px;height:10%;background:#3CBB3F;animation:moveStrip 0.2s ease-in-out infinite alternate;}
+/* Right VPS:Full vertical load bar with gradient */
+ .load-bar-red{position:absolute;bottom:15%;left:0;width:10px;height:80%;background:linear-gradient(to top,#3CBB3F 0%,#3CBB3F 33.33%,orange 33.33%,orange 66.66%,red 66.66%,red 100%);}
+.orange-strip-red{position:absolute;top:3%;left:0;width:10px;height:10%;background:red;animation:moveStrip 0.2s ease-in-out infinite alternate;}
+@keyframes moveStrip{0%{transform:translateY(0);}
+100%{transform:translateY(-8px);}
+}
+@media (max-width:768px){.vps-box{width:90%;}
+.left-load{right:-40px;}
+.right-load{left:-50px;}
+}
+</style>
+</head>
+<body>
+  <section class="section col-100 floatLft">
+    <h2 class="heading">
+      <span class="text-green">We Never overload</span><br>Our Servers
+    </h2>
+    <p class="subheading">
+      Our customers are Forex traders and our servers are balanced perfectly. Your resources are never shared, that’s guaranteed.
+    </p>
+
+    <div class="vps-container">
+      <!-- Left VPS -->
+      <div class="vps-box">
+        <span class="load-label left-load" id="load-counter">67%<br>Load</span>
+        <img src="https://www.forexvps.net/img/homepage/overload-servers-forexvps.png" class="vps-img" alt="Forex VPS">
+        <p class="vps-title">Forex <span class="text-green">VPS</span></p>
+        <div class="load-bar"></div>
+        <div class="orange-strip"></div>
+      </div>
+
+      <!-- Right VPS -->
+      <div class="vps-box">
+         <span class="load-label right-load" id="load-counter-generic">97%<br>Load</span>
+        <img src="https://www.forexvps.net/img/homepage/overload-servers-generic.png" class="vps-img" alt="Generic VPS">
+        <p class="vps-title">Generic <span class="text-red">VPS</span></p>
+        <div class="load-bar-red"></div>
+        <div class="orange-strip-red"></div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Left VPS Counter (Forex VPS)
+    const loadForex = document.getElementById('load-counter-forex');
+    let load1 = 67;
+    setInterval(() => {
+      load1 = load1 >= 69 ? 67 : load1 + 1;
+      loadForex.innerHTML = `${load1}%<br>Load`;
+    }, 100);
+
+    // Right VPS Counter (Generic VPS)
+    const loadGeneric = document.getElementById('load-counter-generic');
+    let load2 = 97;
+    setInterval(() => {
+      load2 = load2 >= 99 ? 97 : load2 + 1;
+      loadGeneric.innerHTML = `${load2}%<br>Load`;
+    }, 100);
+  </script>
+</body>
+</html>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    </style>
+    <style>
+        /* General Styles */
+
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            /* Lower than the popup */
+        }
+
+        .popup-overlay3 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out, visibility 0.3s;
+            z-index: 9999;
+        }
+
+        .popup-overlay3.active {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .popup-content3 {
+            position: relative;
+            background: url('/assets/images/popup/popup3bg.png') no-repeat center center;
+            background-size: contain;
+            max-width: 600px;
+            width: 100%;
+            height: 430px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10000;
+        }
+
+        .close-btn3 {
+            position: absolute;
+            top: 12px;
+            right: 29px;
+            font-size: 13px;
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .popup-title3 {
+            font-size: 50px;
+            color: #ffdc27;
+            font-weight: 600;
+            margin-right: 280px;
+            margin-bottom: 0px;
+            /* margin-top: 5px; */
+            letter-spacing: 4px;
+            margin-bottom: -5px;
+            text-shadow: 5px 0px 3px #004a89;
+        }
+
+        span.txtmsg {
+            font-size: 28px;
+            margin-right: 280px;
+            font-weight: 600;
+            text-shadow: 5px 0px 3px #004a89;
+        }
+
+        .txt-color {
+            color: #ffdc27;
+        }
+
+        span.txt-off3 {
+            color: #ffdc27;
+            font-size: 35px;
+            letter-spacing: 4px;
+            margin-right: 256px;
+            font-weight: 800;
+            text-shadow: 5px 0px 3px #004a89;
+        }
+
+        .discount-box3 {
+            /* background: #b37b42; */
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 70px;
+            font-weight: bold;
+            margin-right: 245px;
+            width: 50%;
+            text-align: center;
+            text-shadow: 5px 0px 3px #000000ba;
+            margin-bottom: -20px;
+        }
+
+        .coupon-box3 {
+
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 30px;
+            font-weight: bold;
+            /* margin: 15px 0; */
+            width: 61%;
+            margin-right: 220px;
+            text-align: center;
+            margin-top: 10px;
+
+        }
+
+        span.hosting {
+            font-size: 25px;
+            margin-right: 270px;
+            font-weight: 600;
+            line-height: 35px;
+            letter-spacing: 2px;
+            padding: 5px;
+            /* text-shadow: 5px 0px 3px #000000ba; */
+            margin-bottom: -6px;
+        }
+
+        span.use-code3 {
+            font-size: 16px;
+            font-weight: 100;
+            color: #fff;
+            margin-right: 270px;
+            color: #56abc7;
+            font-weight: 500;
+            line-height: 50px;
+            /* text-shadow: 5px 0px 3px #000000ba; */
+        }
+
+        .limited3 {
+            font-size: 17px;
+            margin-top: 13px;
+            color: #fff;
+            margin-right: 270px;
+            font-weight: 600;
+            /* text-shadow: 5px 0px 3px #000000ba; */
+        }
+
+
+        img.couponbg {
+            margin-right: 280px;
+            width: 47%;
+            height: auto;
+        }
+
+        a.popup-end {
+            margin-top: 30px;
+            font-size: 20px;
+            text-decoration: auto;
+            font-weight: 600;
+            color: #42078f;
+
+
+        }
+
+
+
+        .copied-tooltip {
+            position: absolute;
+            background: #4CAF50;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            top: 0px;
+            /* Adjust position above the button */
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+            margin-top: -10px;
+        }
+
+
+
+        .text-overlay {
+            position: absolute;
+            top: 48%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            color: #135687;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        img.iconCopy {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .popup-btn {
+            display: inline-block;
+            background: #fff;
+            color: #003d69;
+            padding: 10px 15px;
+            font-size: 17px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 270px;
+            border-radius: 10px;
+            margin-top: 9px;
+            /* margin-bottom: 103px; */
+
+            transition: background 0.3s;
+        }
+
+        #grabDealBtn {
+            box-shadow: 2px 3px 5px #135687;
+        }
+    </style>
+</head>     
+<body>
+
+
+  <!-- Popup Container 3  -->
+    <div id="popup3" class="popup-overlay3">
+        <!--<div class="popup-content3">-->
+            <div  class="image-wrapper copy-zone " data-copy="FESTIVE10" style="position: relative;">
+              <span style="display:hiddenl;opacity:0" alt="Copy" id="couponCodes" >FESTIVE10</span>
+            <img src="./assets/images/popup/exit-popup-ganesha-2025.png" alt="Code Image" width="600">
+            <div  title="Click to Copy" onclick="copyCoupons(event)"  class="share_exitPop" style="position: absolute;left: 60%;bottom: 25%;cursor: pointer;">
+                <img src="/assets/images/popup/exit-popup-button1.png" alt="Code Image" style="width: 230px;position: absolute;left: 6px;top:-47px">
+                <a href=""><img src="/assets/images/popup/exit-popup-button2.png" alt="Code Image" style="position: absolute;left: 50px;top:15px"></a>
+            </div>
+            <div class="shared_close_mid" onclick="closePopup3()" style="position: absolute;top: 3%;right: 15px;cursor: pointer;">
+                <img src="./assets/images/popup/exit-popup-button3.png" alt="Code Image">
+            </div>
+        <!--</div>-->
+        </div>
+    </div>
+    
+
+
+
+
+
+
+ <script>
+        let isPopupShown3 = false;
+
+        // Function to check if the device is a mobile
+        function isMobileDevice() {
+            return window.innerWidth <= 768; // Adjust width as needed for mobile detection
+        }
+
+        // Detect when the user is trying to leave (Only for desktops/laptops)
+        document.addEventListener("mouseleave", function(event) {
+            if (!isPopupShown3 && event.clientY <= 0 && !isMobileDevice()) {
+                showPopup();
+            }
+        });
+
+
+
+        function showPopup() {
+            document.getElementById("popup3").classList.add("active");
+            isPopupShown3 = true;
+        }
+
+        function closePopup3() {
+            document.getElementById("popup3").classList.remove("active");
+        }
+
+        // Copy Coupon Code
+        function copyCoupons(event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            const couponText = document.getElementById("couponCodes");
+
+            if (couponText) {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(couponText.innerText)
+                        .then(() => showCopiedMessage(event.target))
+                        .catch(err => console.error("Failed to copy: ", err));
+                } else {
+                    // Fallback for older browsers
+                    const textArea = document.createElement("textarea");
+                    textArea.value = couponText.innerText;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand("copy");
+                    document.body.removeChild(textArea);
+                    showCopiedMessage(event.target);
+                }
+            } else {
+                console.error("Element not found!");
+            }
+        }
+
+        function showCopiedMessage(targetElement) {
+            let message = document.createElement("span");
+            message.innerText = "Copied!";
+            message.className = "copied-tooltip"; // Add class for styling
+
+            // Position the message relative to the clicked element
+            targetElement.parentElement.appendChild(message);
+
+            // Show the tooltip and remove after 1.5 seconds
+            setTimeout(() => {
+                message.remove();
+            }, 1500);
+        }
+
+        // Grab Deal Button Click (Show Section & Close Popup)
+        document.getElementById("grabDealBtn").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let dealSection = document.getElementById("jump-to-plans");
+            let popupOverlay = document.querySelector(".popup-overlay3");
+
+            if (dealSection) {
+                dealSection.style.display = "block"; // Show deal section
+                dealSection.scrollIntoView({
+                    behavior: "smooth"
+                }); // Scroll smoothly
+                popupOverlay.style.display = "none"; // Hide the popup
+            }
+        });
+    </script>
+</body>
+</html>
